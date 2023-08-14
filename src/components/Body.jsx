@@ -57,13 +57,13 @@ export default function Body(){
                 </section>
             </div>
             
-            <div className="z-10 flex flex-col px-6 relative mb-28 ">
+            <div className="z-10 flex flex-col px-6 relative mb-28 justify-center">
                     <div className=" md:w-[50%] lg:w-[30%] md:text-center self-center">
                         <h3 className="font-bold text-white md:text-2xl">{info.home.lines.subtitle}</h3>
                         {/* <p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p> */}
                     </div>
 
-                    <div className="flex flex-col align-center justify-center md:flex-row">
+                    <div className="flex flex-col align-center justify-center md:flex-row self-center md:px-36">
                         {cards()}
                     </div>
             </div>  

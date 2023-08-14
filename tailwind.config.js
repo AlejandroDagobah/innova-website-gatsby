@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       screens:{
         'xs': '280px',       
-        'lg': '1024',
+        'lg': '1024px',
+        'xl': '1200px'
       }, 
       colors: {
         InnovaBlueBG: 'rgba(43, 56, 69, 1)',

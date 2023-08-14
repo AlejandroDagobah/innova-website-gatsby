@@ -59,8 +59,8 @@ export default function Body(){
             
             <div className="z-10 flex flex-col px-6 relative mb-28 ">
                     <div className=" md:w-[50%] lg:w-[30%] md:text-center self-center">
-                        <h3 className="font-bold text-white md:text-2xl">Contemplamos desde el <span className="text-InnovaGreen">financiemiento</span> hasta la <span className="text-InnovaGreen">construcción</span>.</h3>
-                        <p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p>
+                        <h3 className="font-bold text-white md:text-2xl">{info.home.lines.subtitle}</h3>
+                        {/* <p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p> */}
                     </div>
 
                     <div className="flex flex-col align-center justify-center md:flex-row">
@@ -100,7 +100,7 @@ export default function Body(){
             </div>
 
             <div className="flex flex-col justify-center items-center bg-cover bg-center h-[400px] bg-natureIntelligence">
-                <h4 className="font-bold text-white text-center text-4xl break-all px-4">¿Listo para activar tu <br /><span className="text-InnovaGreen">#inteligenciaconstructiva</span>?</h4>
+                <h4 className="font-bold text-white text-center text-4xl break-all px-4">{info.home.callToAction.title}</h4>
                 <a className="innovaButton">{info.home.callToAction.button}</a>
 
             </div>

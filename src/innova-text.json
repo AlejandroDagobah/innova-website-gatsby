@@ -4,25 +4,25 @@
             "subtitle": "Inteligencia Econstructiva",
             "title": "Somos Innova Egroup",
             "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
-            "button": "Descubre más"
+            "button": "Conoce nuestros proyectos"
         },
         "lines":{
-            "subtitle":"Contemplamos desde el financiemiento hasta la construcción.",
+            "subtitle":"Contamos con sólidas líneas de negocio para una inversión inmobiliaria inteligente",
             "description":"Te presentamos nuestras diferentes productos",
             "cards":[
                 {
                     "title": "NOVA \n BUILDING",
-                    "description": "Nuestra línea de construcción",
+                    "description": "Construimos con nuestro propio sistema econstructivo optimizando costos y ofreciendo acabados de primera.",
                     "link": "./img/nova-building.png"
                 },
                 {
                     "title": "NOVA \n PROFIT",
-                    "description": "Nuestra línea de construcción",
+                    "description": "Crowdfunding inmobiliario que impulsa la inversión colaborativa para la obtención de réditos superiores al mercado financiero.",
                     "link": "./img/nova-profit.png"
                 },
                 {
                     "title": "NOVA \n BLOCK",
-                    "description": "Nuestra línea de construcción",
+                    "description": "Fabricamos ecoladrillos con propiedades resistentes y termoacústicas para una construcción amigable con el medio ambiente.",
                     "link": "./img/nova-block.png"
 
                 }
@@ -30,7 +30,7 @@
         },
         "projects":{
             "subtitle":"Proyectos Novabuilding",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus, neque nec maximus eleifend, orci ex tempus lectus, eget viverra nulla lectus nec nibh.",
+            "description":" Contamos con proyectos habitacionales ubicados en sectores estratégicos y realizamos la planificación y construcción de casas a tu medida en tu propio terreno.",
             "projectCards":[
                 {
                     "img": "./img/projects-annona.png",
@@ -57,19 +57,19 @@
         },
         "novaprofit":{
             "title": "NovaProfit",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis",
+            "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
             "button": "Descubre más",
             "img": "./img/novaprofit-investment.png"
         },
         "nuestroCompromiso":{
             "title": "Nuestro Compromiso",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis",
+            "description": "Generar un retorno de inversión  seguro y superior al promedio del mercado financiero.",
             "img": "./img/forest-block-red.png"
 
         },
         "callToAction":{
-            "title": "¿Listo para activar tu #inteligenciaeconstructiva?",
-            "button": "Descubre más",
+            "title": "¿Listo para activar tu inteligencia econstructiva?",
+            "button": "Contáctanos",
             "img": "./img/nature-tech-bg.png"
 
         }     
@@ -82,7 +82,7 @@
                 "list":[
                     {
                         "icon":"./img/icons/icon-phone.png",
-                        "text": "+593 XXXXXXXXXX",
+                        "text": "+593 992 693 401",
                         "url": "#"
                     },
                     {
@@ -101,15 +101,15 @@
                 "title": "LÍNEAS",
                 "list":[
                     {
-                        "text": "Novabuilding",
+                        "text": "NOVABUILDING",
                         "link": "#"
                     },
                     {
-                        "text": "Novaprofit",
+                        "text": "NOVAPROFIT",
                         "link": "#"
                     },
                     {
-                        "text": "Novablock",
+                        "text": "NOVABLOCK",
                         "link": "#"
                     }
 

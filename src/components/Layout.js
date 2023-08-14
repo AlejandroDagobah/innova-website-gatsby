@@ -8,9 +8,7 @@ export default function Layout({children}) {
         <div>
             {children}
 
-        </div>
-        
-      <p>HOLA</p>
+        </div>        
     </div>
   )
 }

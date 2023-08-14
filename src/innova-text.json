@@ -1,0 +1,167 @@
+{
+    "home":{
+        "cover":{
+            "subtitle": "Inteligencia Econstructiva",
+            "title": "Somos Innova Egroup",
+            "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
+            "button": "Descubre más"
+        },
+        "lines":{
+            "subtitle":"Contemplamos desde el financiemiento hasta la construcción.",
+            "description":"Te presentamos nuestras diferentes productos",
+            "cards":[
+                {
+                    "title": "NOVA \n BUILDING",
+                    "description": "Nuestra línea de construcción",
+                    "link": "./img/nova-building.png"
+                },
+                {
+                    "title": "NOVA \n PROFIT",
+                    "description": "Nuestra línea de construcción",
+                    "link": "./img/nova-profit.png"
+                },
+                {
+                    "title": "NOVA \n BLOCK",
+                    "description": "Nuestra línea de construcción",
+                    "link": "./img/nova-block.png"
+
+                }
+            ]
+        },
+        "projects":{
+            "subtitle":"Proyectos Novabuilding",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus, neque nec maximus eleifend, orci ex tempus lectus, eget viverra nulla lectus nec nibh.",
+            "projectCards":[
+                {
+                    "img": "./img/projects-annona.png",
+                    "title":"ANNONA",
+                    "location":"Guayllabamba"
+                },
+                {
+                    "img": "./img/projects-altamira.png",
+                    "title":"ALTAMIRA",
+                    "location":"El Bosque"
+                },
+                {
+                    "img": "./img/projects-novacasa.png",
+                    "title":"NOVACASA",
+                    "location":"Tu terreno"
+                }
+                ,
+                {
+                    "img": "./img/projects-futuros-proyectos.png",
+                    "title":"FUTUROS PROYECTOS",
+                    "location":"Próximas Ubicaciones"
+                }
+            ]
+        },
+        "novaprofit":{
+            "title": "NovaProfit",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis",
+            "button": "Descubre más",
+            "img": "./img/novaprofit-investment.png"
+        },
+        "nuestroCompromiso":{
+            "title": "Nuestro Compromiso",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis",
+            "img": "./img/forest-block-red.png"
+
+        },
+        "callToAction":{
+            "title": "¿Listo para activar tu #inteligenciaeconstructiva?",
+            "button": "Descubre más",
+            "img": "./img/nature-tech-bg.png"
+
+        }     
+    },
+
+    "footer":{
+        "nav":[
+            {
+                "title": "CONTÁCTO",
+                "list":[
+                    {
+                        "icon":"./img/icons/icon-phone.png",
+                        "text": "+593 XXXXXXXXXX",
+                        "url": "#"
+                    },
+                    {
+                        "icon":"./img/icons/icon-mail.png",
+                        "text": "info@innova-egroup.com",
+                        "url": "#"
+                    },
+                    {
+                        "icon":"./img/icons/icon-location.png",
+                        "text": "Av. 12 de octubre N24-584 y Francisco Salazar"
+                    }
+
+                ]
+            },
+            {
+                "title": "LÍNEAS",
+                "list":[
+                    {
+                        "text": "Novabuilding",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Novaprofit",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Novablock",
+                        "link": "#"
+                    }
+
+                ]
+            },
+            {
+                "title": "AYUDA",
+                "list":[
+                    {
+                        "text": "Contáctanos",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Quienes Somos",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Políticas de Privacidad",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Términos y Condiciones",
+                        "link": "#"
+                    }
+
+                ]
+            }
+
+        ],
+
+        "socialMedia":[
+            {
+                "icon": "./img/icons/icon-facebook.png",
+                "url": ""
+            },
+            {
+                "icon": "./img/icons/icon-instagram.png",
+                "url": ""
+            },
+            {
+                "icon": "./img/icons/icon-linkedin.png",
+                "url": ""
+            },
+            {
+                "icon": "./img/icons/icon-whatsapp.png",
+                "url": ""
+            }
+        ]
+
+
+
+
+    }  
+} 
+

@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
@@ -36,11 +39,15 @@ module.exports = {
         'movilBlock': "url('../../static/img/forest-block-movil.png')",
         'desktopBlock': "url('../../static/img/forest-block-desktop.png')",
         'natureIntelligence': "url('../../static/img/nature-tech-bg.png')",
-        'hojaDesktop': "url('../../static/img/hojas-desktop.png')"
+        'hojaDesktop': "url('../../static/img/hojas-desktop.png')",
+
+        'desktopWallpaper1': "url('../../static/img/bg-wallpaper-annona-1.png')",
+        'desktopWallpaper2': "url('../../static/img/bg-wallpaper-annona-2.png')",
+        'desktopWallpaper3': "url('../../static/img/bg-wallpaper-annona-3.png')",
+        'desktopWallpaper4': "url('../../static/img/bg-wallpaper-annona-4.png')"
       }
     }
 
   },
   plugins: [],
-}
-
+})

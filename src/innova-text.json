@@ -75,6 +75,32 @@
         }     
     },
 
+    "header":{
+        "logo": "",
+        "nav":[
+            {
+                "title": "Novabuilding",
+                "url": "#"
+            },
+            {
+                "title": "NovaProfit",
+                "url": "#"
+            },
+            {
+                "title": "NovaBlock",
+                "url": "#"
+            },
+            {
+                "title": "Quienes Somos",
+                "url": "#"
+            },
+            {
+                "title": "Contáctanos",
+                "url": "#"
+            }
+        ]
+    },
+
     "footer":{
         "nav":[
             {

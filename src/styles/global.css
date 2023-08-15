@@ -32,6 +32,10 @@
         @apply bg-InnovaGreen py-2 px-4 mt-4 text-white font-medium rounded-tr-[30px] rounded-br-[30px] rounded-bl-[30px] 
     }
 
+    .innovaButtonNav{
+        @apply border-transparent hover:border-InnovaGreen hover:bg-black/10 border-2 py-2 px-4 mt-4 text-white font-medium rounded-tr-[30px] rounded-br-[30px] rounded-bl-[30px] transition ease-in-out delay-100
+    }
+
 
     .cardTitle{
         @apply text-white text-5xl font-bold

@@ -11,17 +11,17 @@
             "description":"Te presentamos nuestras diferentes productos",
             "cards":[
                 {
-                    "title": "NOVA \n BUILDING",
+                    "title": "NOVA <br> BUILDING",
                     "description": "Construimos con nuestro propio sistema econstructivo optimizando costos y ofreciendo acabados de primera.",
                     "link": "./img/nova-building.png"
                 },
                 {
-                    "title": "NOVA \n PROFIT",
+                    "title": "NOVA <br> PROFIT",
                     "description": "Crowdfunding inmobiliario que impulsa la inversión colaborativa para la obtención de réditos superiores al mercado financiero.",
                     "link": "./img/nova-profit.png"
                 },
                 {
-                    "title": "NOVA \n BLOCK",
+                    "title": "NOVA <br> BLOCK",
                     "description": "Fabricamos ecoladrillos con propiedades resistentes y termoacústicas para una construcción amigable con el medio ambiente.",
                     "link": "./img/nova-block.png"
 
@@ -68,7 +68,7 @@
 
         },
         "callToAction":{
-            "title": "¿Listo para activar tu inteligencia econstructiva?",
+            "title": "¿Listo para activar tu <span style='color:#7FBA42'>inteligencia econstructiva</span>?",
             "button": "Contáctanos",
             "img": "./img/nature-tech-bg.png"
 

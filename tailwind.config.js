@@ -12,10 +12,10 @@ module.exports = withMT({
     extend: {
       screens:{
         'xs': '280px',
-        'sm': '320px',
+        'sm': '425px',
         'md': '768px',  
         'lg': '1024px',
-        'xl': '1200px'
+        'xl': '1200px',
       }, 
       colors: {
         InnovaBlueBG: 'rgba(43, 56, 69, 1)',
@@ -47,7 +47,11 @@ module.exports = withMT({
         'desktopWallpaper2': "url('../../static/img/bg-wallpaper-annona-2.png')",
         'desktopWallpaper3': "url('../../static/img/bg-wallpaper-annona-3.png')",
         'desktopWallpaper4': "url('../../static/img/bg-wallpaper-annona-4.png')"
-      }
+      },
+      fontSize: {
+        clampTitle: "clamp(2rem, 6vw, 3rem)",
+        clampText: "clamp(0.75rem, 0.6798rem + 0.4321vw, 1rem)"
+      },
     }
 
   },

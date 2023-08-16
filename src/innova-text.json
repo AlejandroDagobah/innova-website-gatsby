@@ -30,7 +30,7 @@
         },
         "projects":{
             "subtitle":"Proyectos Novabuilding",
-            "description":" Contamos con proyectos habitacionales ubicados en sectores estratégicos y realizamos la planificación y construcción de casas a tu medida en tu propio terreno.",
+            "description":"Te presentamos nuestros proyectos",
             "projectCards":[
                 {
                     "img": "./img/projects-annona.png",

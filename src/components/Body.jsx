@@ -89,21 +89,23 @@ export default function Body(){
                 </section>
             </div>
             
-       {/* {     <div className="z-10 flex flex-col px-6 relative mb-28 justify-center">
-                    <div className=" md:w-[50%] lg:w-[30%] md:text-center self-center">
-                        <h3 className="font-bold text-white md:text-2xl">{info.home.lines.subtitle}</h3>
+
+            <div className="z-10 flex flex-col px-6 relative mb-28 justify-center max-w-[1200px] mx-auto">
+                    <div className="max-w-[550px] md:text-center self-center">
+                        <h3 className="font-bold text-InnovaGreen md:text-2xl">{info.home.lines.subtitle}</h3>
                         {<p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p>}
                     </div>
 
-                    <div className="flex flex-col align-center justify-center md:flex-row self-center md:px-36">
+                    <div className="flex flex-col justify-center md:flex-row gap-3">
                         {cards()}
                     </div>
-            </div>  
-        } */}
+            </div>
+
+        
             <div className="mb-12">
                 <section className="px-6 md:text-center">
                     <h3 className="font-bold text-white md:text-3xl">Proyectos <span className="text-InnovaGreen">Novabuilding</span></h3>
-                    <p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p>\
+                    <p className="text-white mt-4 mr-4 mb-4">{info.home.projects.description}</p>\
                 </section>
                 <section className="flex flex-row h-[450px] md:h-[700px]">
                   {projects()}

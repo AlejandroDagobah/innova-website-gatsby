@@ -132,12 +132,12 @@
                     {
                         "icon":"/img/icons/icon-phone.png",
                         "text": "+593 992 693 401",
-                        "url": "#"
+                        "url": "wa.me/593992693401"
                     },
                     {
                         "icon":"/img/icons/icon-mail.png",
                         "text": "info@innova-egroup.com.ec",
-                        "url": "#"
+                        "url": "mailto:info@innova-egroup.com.ec"
                     },
                     {
                         "icon":"/img/icons/icon-location.png",
@@ -151,15 +151,15 @@
                 "list":[
                     {
                         "text": "NOVABUILDING",
-                        "url": "#"
+                        "url": "/novabuilding"
                     },
                     {
                         "text": "NOVAPROFIT",
-                        "url": "#"
+                        "url": "/novaprofit"
                     },
                     {
                         "text": "NOVABLOCK",
-                        "url": "#"
+                        "url": "/novablock"
                     }
 
                 ]
@@ -169,19 +169,19 @@
                 "list":[
                     {
                         "text": "Contáctanos",
-                        "url": "#"
+                        "url": "/contactanos"
                     },
                     {
                         "text": "Quienes Somos",
-                        "url": "#"
+                        "url": "/quienes-somos"
                     },
                     {
                         "text": "Políticas de Privacidad",
-                        "url": "#"
+                        "url": "/politicas-privacidad"
                     },
                     {
                         "text": "Términos y Condiciones",
-                        "url": "#"
+                        "url": "/terminos-condiciones"
                     }
 
                 ]
@@ -192,19 +192,19 @@
         "socialMedia":[
             {
                 "icon": "/img/icons/icon-facebook.png",
-                "url": ""
+                "url": "https://www.facebook.com/innovaegroup.ec"
             },
             {
                 "icon": "/img/icons/icon-instagram.png",
-                "url": ""
+                "url": "https://www.instagram.com/innovaegroup/"
             },
             {
                 "icon": "/img/icons/icon-linkedin.png",
-                "url": ""
+                "url": "https://www.linkedin.com/company/innova-egroup/"
             },
             {
                 "icon": "/img/icons/icon-whatsapp.png",
-                "url": ""
+                "url": "wa.me/593992693401"
             }
         ]
 

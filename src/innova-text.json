@@ -13,17 +13,22 @@
                 {
                     "title": "NOVA <br> BUILDING",
                     "description": "Construimos con nuestro propio sistema econstructivo optimizando costos y ofreciendo acabados de primera.",
-                    "link": "./img/nova-building.png"
+                    "img": "./img/nova-building.png",
+                    "url": "/novabuilding"
+
                 },
                 {
                     "title": "NOVA <br> PROFIT",
                     "description": "Crowdfunding inmobiliario que impulsa la inversión colaborativa para la obtención de réditos superiores al mercado financiero.",
-                    "link": "./img/nova-profit.png"
+                    "img": "./img/nova-profit.png",
+                    "url": "/novaprofit"
+
                 },
                 {
                     "title": "NOVA <br> BLOCK",
                     "description": "Fabricamos ecoladrillos con propiedades resistentes y termoacústicas para una construcción amigable con el medio ambiente.",
-                    "link": "./img/nova-block.png"
+                    "img": "./img/nova-block.png",
+                    "url": "/novablock"
 
                 }
             ]
@@ -35,23 +40,27 @@
                 {
                     "img": "/img/projects-annona.png",
                     "title":"ANNONA",
-                    "location":"Guayllabamba"
+                    "location":"Guayllabamba",
+                    "url":"/annona"
                 },
                 {
                     "img": "/img/projects-altamira.png",
                     "title":"ALTAMIRA",
-                    "location":"El Bosque"
+                    "location":"El Bosque",
+                    "url":"/altamira"
                 },
                 {
                     "img": "/img/projects-novacasa.png",
                     "title":"NOVACASA",
-                    "location":"Tu terreno"
+                    "location":"Tu terreno",
+                    "url":"/novacasa"
                 }
                 ,
                 {
                     "img": "/img/projects-futuros-proyectos.png",
                     "title":"FUTUROS <br>PROYECTOS",
-                    "location":"Próximas Ubicaciones"
+                    "location":"Próximas Ubicaciones",
+                    "url":"/futuros-proyectos"
                 }
             ]
         },
@@ -59,18 +68,18 @@
             "title": "NovaProfit",
             "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
             "button": "Descubre más",
-            "img": "./img/novaprofit-investment.png"
+            "img": "/img/novaprofit-investment.png"
         },
         "nuestroCompromiso":{
             "title": "Nuestro Compromiso",
             "description": "Generar un retorno de inversión  seguro y superior al promedio del mercado financiero.",
-            "img": "./img/forest-block-red.png"
+            "img": "/img/forest-block-red.png"
 
         },
         "callToAction":{
             "title": "¿Listo para activar tu <span style='color:#7FBA42'>inteligencia econstructiva</span>?",
             "button": "Contáctanos",
-            "img": "./img/nature-tech-bg.png"
+            "img": "/img/nature-tech-bg.png"
 
         }     
     },
@@ -94,23 +103,23 @@
         "nav":[
             {
                 "title": "Novabuilding",
-                "url": "#"
+                "url": "/novabuilding"
             },
             {
                 "title": "NovaProfit",
-                "url": "#"
+                "url": "/novaprofit"
             },
             {
                 "title": "NovaBlock",
-                "url": "#"
+                "url": "/novablock"
             },
             {
                 "title": "Quienes Somos",
-                "url": "#"
+                "url": "/quienes-somos"
             },
             {
                 "title": "Contáctanos",
-                "url": "#"
+                "url": "/contactanos"
             }
         ]
     },
@@ -118,20 +127,20 @@
     "footer":{
         "nav":[
             {
-                "title": "CONTÁCTO",
+                "title": "CONTACTO",
                 "list":[
                     {
-                        "icon":"./img/icons/icon-phone.png",
+                        "icon":"/img/icons/icon-phone.png",
                         "text": "+593 992 693 401",
                         "url": "#"
                     },
                     {
-                        "icon":"./img/icons/icon-mail.png",
-                        "text": "info@innova-egroup.com",
+                        "icon":"/img/icons/icon-mail.png",
+                        "text": "info@innova-egroup.com.ec",
                         "url": "#"
                     },
                     {
-                        "icon":"./img/icons/icon-location.png",
+                        "icon":"/img/icons/icon-location.png",
                         "text": "Av. 12 de octubre N24-584 y Francisco Salazar"
                     }
 

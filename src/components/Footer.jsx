@@ -39,7 +39,7 @@ export default function Footer() {
 
         return  (
             <a href={item.url} className="mx-1">
-                <img src={item.icon} alt="" />
+                <img src={item.icon} alt="" className="max-w-[35px]"/>
             </a>
         )
     })
@@ -66,7 +66,7 @@ export default function Footer() {
             <div className="bottom-0 right-0 z-0 flex bg-hojaMovil md:absolute min-h-[400px] bg-top md:bg-hojaDesktop bg-cover mt-[-6.5rem] md:mt-0 md:bg-bottom md:min-w-[350px] md:min-h-[400px] flex flex-col justify-end md:justify-center items-center sm:items-end px-8 md:items-center">
 
                     <img src="/img/logo-vertical.png" alt="" className="w-[180px] z-20 md:mt-16 mb-4"/>
-                    <div className="flex flex-row z-20 mb-10 md:mb-0">
+                    <div className="flex flex-row z-20 mb-10 md:mb-0 items-center justify-center">
                         {socialMedia}
                     </div>
                 {/* <img src="/img/hojas-desktop.png" alt="" className="w-[350px] imageLeaf"/> */}

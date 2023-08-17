@@ -19,9 +19,10 @@ export default function Body(){
 
             return (
                 <Cards 
-                    img={item.link}
+                    img={item.img}
                     title={item.title}
                     description={item.description}
+                    url={item.url}
                 />
             )
 
@@ -38,6 +39,7 @@ export default function Body(){
                     img={item.img}
                     title={item.title}
                     location={item.location}
+                    url={item.url}
                 />
             )
         })

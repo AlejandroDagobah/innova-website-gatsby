@@ -20,7 +20,7 @@ export default function Footer() {
 
 
             return (
-                <div className={`py-4 lg:pr-14 max-w-[350px] ${item.title == "CONTÁCTO" ? `md:pr-12 md:-mr-8`: `md:pr-9 lg:pr-12`}`} >
+                <div className={`py-4 lg:pr-14 max-w-[350px] ${item.title == "CONTÁCTO" ? `md:pr-12`: ``}`} >
                     <h6 className="text-white font-bold mb-1">{item.title}</h6>
                     <ul>
                         {list}
@@ -45,20 +45,31 @@ export default function Footer() {
     })
 
     return(
-        <footer className="bg-InnovaBlue sm:pl-0 pt-8 pl-0 md:pl-8 md:pt-16 lg:pl-36 flex flex-col md:flex-row md:justify-between">
-            <div className="mb-12 px-8 flex flex-col md:flex-row">
+        <footer className="sm:pl-0 pt-8 pl-0 xl:pl-8 md:pt-16 xl:pl-36 flex flex-col md:flex-row md:justify-between relative">
+            <div className="mb-12 px-8 flex flex-col md:grid md:grid-cols-3 xl:grid-cols-4 md:pr-[30%]">
                 {menu()}
             </div>
 
-            <div className="flex flex-col items-center justify-center relative md:w-[400px]">
+            {/* <div className="flex flex-col items-center justify-center relative md:w-[400px]">
 
-                <img src="./img/logo-vertical.png" alt="" className="w-[200px] z-20 lg:mt-16"/>
+                <img src="/img/logo-vertical.png" alt="" className="w-[200px] z-20 lg:mt-16"/>
                     <div className="flex flex-row z-20">
                         {socialMedia}
                     </div>
 
-                <img src="./img/hoja.png" alt="" className="w-full absolute b-0 z-0 md:hidden"/>
-                <img src="./img/hojas-desktop.png" alt="" className="w-full absolute b-0 z-0 hidden md:block mb-0 md:mb-40"/>
+                <img src="/img/hoja.png" alt="" className="w-full absolute b-0 z-0 md:hidden"/>
+                <img src="/img/hojas-desktop.png" alt="" className="w-full absolute b-0 z-0 hidden md:block mb-0 md:-mb-50"/>
+
+            </div> */}
+
+
+            <div className="bottom-0 right-0 z-0 flex bg-hojaMovil md:absolute min-h-[400px] bg-top md:bg-hojaDesktop bg-cover mt-[-6.5rem] md:mt-0 md:bg-bottom md:min-w-[350px] md:min-h-[400px] flex flex-col justify-end md:justify-center items-center sm:items-end px-8 md:items-center">
+
+                    <img src="/img/logo-vertical.png" alt="" className="w-[180px] z-20 md:mt-16 mb-4"/>
+                    <div className="flex flex-row z-20 mb-10 md:mb-0">
+                        {socialMedia}
+                    </div>
+                {/* <img src="/img/hojas-desktop.png" alt="" className="w-[350px] imageLeaf"/> */}
 
             </div>
         </footer>

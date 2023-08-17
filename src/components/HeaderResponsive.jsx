@@ -42,8 +42,8 @@ export default function HeaderResponsive(props) {
                 {/* DESKTOP MENU */}
                 <nav className="flex flex-row justify-between items-center hidden md:flex max-w-[1280px] mx-auto">
                     <a href="#">
-                        <img src="./img/logo-white-horizontal.png" alt="" className="hidden lg:block"/>
-                        <img src="./img/logo-white-icon.png" alt="" className="block lg:hidden"/>
+                        <img src="/img/logo-white-horizontal.png" alt="" className="hidden lg:block max-w-[250px]"/>
+                        <img src="/img/logo-white-icon.png" alt="" className="block lg:hidden max-w-[80px]"/>
                     </a>
 
                     <div className="flex flex-row items-center">
@@ -56,19 +56,19 @@ export default function HeaderResponsive(props) {
                 {/* MOVIL MENU CLOSED */}
                 <nav className="flex md:hidden flex-row justify-between items-center">
                     <a href="#">
-                        <img src="./img/logo-white-horizontal.png" alt="" className="hidden sm:block"/>
-                        <img src="./img/logo-white-icon.png" alt="" className="block sm:hidden"/>
+                        <img src="/img/logo-white-horizontal.png" alt="" className="hidden sm:block max-w-[250px]"/>
+                        <img src="/img/logo-white-icon.png" alt="" className="block sm:hidden max-w-[80px]"/>
                     </a>
 
                     <div className="icon cursor-pointer z-20 relative">
-                        {props.toggle ? <IconX  size={30} color={props.toggle ? '#7FBA42' : '#0D1821'} stroke={3} onClick={() => props.setToggle(prevToggle=>(!prevToggle))}/>  : <IconMenu2  size={30} color="#7FBA42" stroke={3} onClick={() =>  props.setToggle(prevToggle=>(!prevToggle))}/> }
+                        {props.toggle ? <IconX  size={30} color={props.toggle ? '#7FBA42' : '#0D1821'} stroke={3} onClick={() => props.setToggle(prevToggle=>(!prevToggle))}/>  : <IconMenu2  size={30} color="#7FBA42" stroke={3} onClick={() => props.setToggle(prevToggle=>(!prevToggle))}/> }
                     </div>
                 </nav>
 
 
                 {/* MOVIL MENU OPENED */}
                 <div className={`flex transition-all duration-200 ${props.toggle ? `translate-x-0` : 'translate-x-full' } px-6 sm:px-20 pt-10 bg-InnovaBlue fixed top-0 right-0 justify-center w-full h-full z-0 flex-col`}>
-                    <img src="./img/logo-white-horizontal.png" alt="" className="max-w-[250px] align-self mb-6 pl-4"/>
+                    <img src="/img/logo-white-horizontal.png" alt="" className="max-w-[250px] align-self mb-6 pl-4"/>
 
                     {navElements}
                 </div>

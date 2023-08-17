@@ -7,7 +7,7 @@
             "button": "Conoce nuestros proyectos"
         },
         "lines":{
-            "subtitle":"Contamos con sólidas líneas de negocio para una inversión inmobiliaria inteligente",
+            "title":"Contamos con sólidas <span style='color:#7FBA42'> líneas de negocio </span> para una inversión inmobiliaria <span style='color:#7FBA42'>inteligente</span>",
             "description":"Te presentamos nuestras diferentes productos",
             "cards":[
                 {
@@ -30,27 +30,27 @@
         },
         "projects":{
             "subtitle":"Proyectos Novabuilding",
-            "description":"Te presentamos nuestros proyectos",
+            "description":" Contamos con proyectos  habitacionales  ubicados en sectores estratégicos y realizamos  la planificación y construcción de casas a tu medida en tu propio terreno.",
             "projectCards":[
                 {
-                    "img": "./img/projects-annona.png",
+                    "img": "/img/projects-annona.png",
                     "title":"ANNONA",
                     "location":"Guayllabamba"
                 },
                 {
-                    "img": "./img/projects-altamira.png",
+                    "img": "/img/projects-altamira.png",
                     "title":"ALTAMIRA",
                     "location":"El Bosque"
                 },
                 {
-                    "img": "./img/projects-novacasa.png",
+                    "img": "/img/projects-novacasa.png",
                     "title":"NOVACASA",
                     "location":"Tu terreno"
                 }
                 ,
                 {
-                    "img": "./img/projects-futuros-proyectos.png",
-                    "title":"FUTUROS PROYECTOS",
+                    "img": "/img/projects-futuros-proyectos.png",
+                    "title":"FUTUROS <br>PROYECTOS",
                     "location":"Próximas Ubicaciones"
                 }
             ]
@@ -73,6 +73,20 @@
             "img": "./img/nature-tech-bg.png"
 
         }     
+    },
+
+    "novabuilding":{
+        "cover":{
+            "subtitle": "Inteligencia Econstructiva",
+            "title": "Novabuilding",
+            "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
+            "button": "Conoce nuestros proyectos"
+        },
+        "peligro":{
+            "title": "La Construcción <br> Tradicional",
+            "subtitle":"El peligro de",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis"
+        }
     },
 
     "header":{
@@ -128,15 +142,15 @@
                 "list":[
                     {
                         "text": "NOVABUILDING",
-                        "link": "#"
+                        "url": "#"
                     },
                     {
                         "text": "NOVAPROFIT",
-                        "link": "#"
+                        "url": "#"
                     },
                     {
                         "text": "NOVABLOCK",
-                        "link": "#"
+                        "url": "#"
                     }
 
                 ]
@@ -146,19 +160,19 @@
                 "list":[
                     {
                         "text": "Contáctanos",
-                        "link": "#"
+                        "url": "#"
                     },
                     {
                         "text": "Quienes Somos",
-                        "link": "#"
+                        "url": "#"
                     },
                     {
                         "text": "Políticas de Privacidad",
-                        "link": "#"
+                        "url": "#"
                     },
                     {
                         "text": "Términos y Condiciones",
-                        "link": "#"
+                        "url": "#"
                     }
 
                 ]
@@ -168,19 +182,19 @@
 
         "socialMedia":[
             {
-                "icon": "./img/icons/icon-facebook.png",
+                "icon": "/img/icons/icon-facebook.png",
                 "url": ""
             },
             {
-                "icon": "./img/icons/icon-instagram.png",
+                "icon": "/img/icons/icon-instagram.png",
                 "url": ""
             },
             {
-                "icon": "./img/icons/icon-linkedin.png",
+                "icon": "/img/icons/icon-linkedin.png",
                 "url": ""
             },
             {
-                "icon": "./img/icons/icon-whatsapp.png",
+                "icon": "/img/icons/icon-whatsapp.png",
                 "url": ""
             }
         ]
@@ -189,5 +203,5 @@
 
 
     }  
-} 
+}
 

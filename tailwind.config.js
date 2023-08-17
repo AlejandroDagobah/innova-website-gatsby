@@ -12,7 +12,7 @@ module.exports = withMT({
     extend: {
       screens:{
         'xs': '280px',
-        'sm': '425px',
+        'sm': '426px',
         'md': '768px',  
         'lg': '1024px',
         'xl': '1200px',
@@ -25,6 +25,7 @@ module.exports = withMT({
         InnovaBlueDark: '#1F2B38',
         InnovaGreen: '#7FBA42',
         InnovaGreenDarker: '#548A1C',
+        InnovaRed: '#BA4242',
   
       },
 
@@ -38,17 +39,25 @@ module.exports = withMT({
         '3xl': '3px 3px 5px rgba(0,0,0,0.5);',
       },
       backgroundImage: {
-        'movilBlock': "url('../../static/img/forest-block-movil.png')",
-        'desktopBlock': "url('../../static/img/forest-block-desktop.png')",
-        'natureIntelligence': "url('../../static/img/nature-tech-bg.png')",
-        'hojaDesktop': "url('../../static/img/hojas-desktop.png')",
+        'movilBlock': "url('/img/forest-block-movil.png')",
+        'desktopBlock': "url('/img/forest-block-desktop.png')",
+        'natureIntelligence': "url('/img/nature-tech-bg.png')",
+        'hojaDesktop': "url('/img/hojas-desktop.png')",
+        'hojaMovil': "url('/img/hoja.png')",
 
-        'desktopWallpaper1': "url('../../static/img/bg-wallpaper-annona-1.png')",
-        'desktopWallpaper2': "url('../../static/img/bg-wallpaper-annona-2.png')",
-        'desktopWallpaper3': "url('../../static/img/bg-wallpaper-annona-3.png')",
-        'desktopWallpaper4': "url('../../static/img/bg-wallpaper-annona-4.png')"
+        'hexagons': "url('/img/hexagons-red.png')",
+        'hexagonsDesktop': "url('/img/hexagons-desktop.png')",
+
+        'desktopWallpaper1': "url('/img/bg-wallpaper-annona-1.png')",
+        'desktopWallpaper2': "url('/img/bg-wallpaper-annona-2.png')",
+        'desktopWallpaper3': "url('/img/bg-wallpaper-annona-3.png')",
+        'desktopWallpaper4': "url('/img/bg-wallpaper-annona-4.png')",
+
+        'desktopWallpaperNB1': "url('/img/bg-wallpaper-annona-fachada.png')",
+        'desktopWallpaperNB2': "url('/img/bg-wallpaper-altamira-fachada.png')"
       },
       fontSize: {
+        clampMainTitle: "clamp(2.5rem, 7vw, 4rem)",
         clampTitle: "clamp(2rem, 6vw, 3rem)",
         clampText: "clamp(0.75rem, 0.6798rem + 0.4321vw, 1rem)"
       },

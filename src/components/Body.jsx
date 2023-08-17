@@ -1,9 +1,10 @@
 import React from "react"
 import info from "../innova-text.json"
-import { Carousel, IconButton } from "@material-tailwind/react";
 
 import Cards from "./Cards";
 import Projects from "./Projects";
+import HeroBanner from "./HeroBanner";
+
 
 export default function Body(){
 
@@ -54,53 +55,26 @@ export default function Body(){
     
     
     return(
-        <div className="">
+        <div>
 
-            <Carousel 
-                transition={{type: 'tween', duration: 2}} 
-                autoplay={true}
-                autoplayDelay={5000}
-                loop={true}
-                className="min-h-screen h-auto z-0 absolute top-0 left-0 opacity-30"
-                navigation={({ setActiveIndex, activeIndex, length }) => (
-                    <div>
+            <HeroBanner
+                imgs={[
+                    'bg-desktopWallpaper1',
+                    'bg-desktopWallpaper2',
+                    'bg-desktopWallpaper3',
+                    'bg-desktopWallpaper4',
+                ]}
+                title={info.home.cover.title}
+                subtitle={info.home.cover.subtitle}
+                description={info.home.cover.description}
+                button={info.home.cover.button}
+            />
 
-                    </div>
-                )}
-                prevArrow={({}) =>{
-                    <div>
-
-                    </div>
-                }}
-                nextArrow={({}) =>{
-                    <div>
-                        
-                    </div>
-                }}
-                >
-                
-                <div className="z-0 w-auto min-h-screen bg-desktopWallpaper1 bg-cover bg-bottom bg-no-repeat"></div>
-                <div className="z-0 w-auto min-h-screen bg-desktopWallpaper2 bg-cover bg-bottom bg-no-repeat"></div>
-                <div className="z-0 w-auto min-h-screen bg-desktopWallpaper3 bg-cover bg-bottom bg-no-repeat"></div>
-                <div className="z-0 w-auto min-h-screen bg-desktopWallpaper4 bg-cover bg-bottom bg-no-repeat"></div>
-                
-
-            </Carousel>
-
-            {/* <img src="./img/bg-wallpaper.png" className="z-0 h-screen md:h-auto w-full object-cover absolute top-0 left-0 opacity-30" /> */}
-            <div className="z-10 flex flex-col px-6 h-screen justify-center relative md:px-36 md:text-center">
-                <section className="self-center flex flex-col md:items-center">
-                    <h3 className="font-bold text-InnovaGreen">{info.home.cover.subtitle}</h3>
-                    <h1 className="font-bold text-white lg:text-6xl">{info.home.cover.title}</h1>
-                    <p className="text-white mt-4 mb-4 max-w-[540px]">{info.home.cover.description}</p>
-                    <a className="max-w-[300px] innovaButton hover:bg-InnovaGreenDarker cursor-pointer ease-in-out delay-100 duration-300">{info.home.cover.button}</a>
-                </section>
-            </div>
 
             {/* CARDS */}
             <div className="z-10 flex flex-col px-6 relative mb-28 justify-center max-w-[1200px] mx-auto">
                     <div className="max-w-[550px] md:text-center self-center">
-                        <h3 className="font-bold text-InnovaGreen md:text-2xl">{info.home.lines.subtitle}</h3>
+                        <h3 className="font-bold text-white md:text-2xl" dangerouslySetInnerHTML={{__html: info.home.lines.title}}></h3>
                         {<p className="text-white mt-4 mr-4 mb-4">{info.home.lines.description}</p>}
                     </div>
 
@@ -113,7 +87,7 @@ export default function Body(){
             <div className="mb-12">
                 <section className="px-6 md:text-center">
                     <h3 className="font-bold text-white md:text-3xl">Proyectos <span className="text-InnovaGreen">Novabuilding</span></h3>
-                    <p className="text-white mt-4 mr-4 mb-4">{info.home.projects.description}</p>
+                    <p className="text-white my-4 mx-auto">{info.home.projects.description}</p>
                 </section>
                 <section className="flex flex-row h-[450px] md:h-[700px]">
                   {projects()}

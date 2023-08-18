@@ -13,7 +13,7 @@ export default function HeaderResponsive(props) {
     useScroll(function setScrollPosition({currentPosition}){
         setScroll(currentPosition.y)
     })
-    console.log(scroll);
+
     var navElements = info.header.nav.map((item, index)=>{
 
         return <Link

@@ -31,16 +31,34 @@
         @apply max-w-[600px]
     }
 
-    body{
-        @apply bg-gradient-to-b from-InnovaBlueBG to-InnovaBlueDarkerBG min-h-screen
+    .layout{
+        @apply min-h-screen
+    }
+
+    .blueGradient{
+        @apply bg-gradient-to-b from-InnovaBlueBG to-InnovaBlueDarkerBG
+    }
+
+    .greenGradient{
+        
+        background: linear-gradient(180deg, rgba(3, 94, 54, 0.50) 0%, rgba(156, 182, 78, 0.50) 30.52%, rgba(156, 182, 78, 0.50) 64.73%, rgba(3, 94, 54, 0.50) 100%), #035E36;
+
     }
 
     .innovaButton{
         @apply bg-InnovaGreen py-2 px-4 mt-4 text-white font-medium rounded-tr-[30px] rounded-br-[30px] rounded-bl-[30px] 
     }
 
+    .annonaButton{
+        @apply bg-AnnonaYellow py-2 px-4 mt-4 text-AnnonaGreenBG font-bold rounded-tr-[30px] rounded-bl-[30px] 
+    }
+
     .innovaButtonNav{
         @apply border-transparent hover:border-InnovaGreen hover:bg-black/10 border-2 py-2 px-4 text-white font-medium rounded-tr-[30px] rounded-br-[30px] rounded-bl-[30px] transition ease-in-out delay-100
+    }
+
+    .map{
+        clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
     }
 
     .headerNormal{

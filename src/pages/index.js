@@ -12,7 +12,9 @@ export default function Home() {
 
 
   return (
-    <Layout>
+    <Layout 
+      gradientColors={true}
+    >
       <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
       <Body/>
       <Footer/>

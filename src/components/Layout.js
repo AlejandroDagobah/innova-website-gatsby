@@ -2,13 +2,15 @@ import React from 'react'
 import '../styles/global.css'
 
 
-export default function Layout({children}) {
-  return (
-    <div>
-        <div>
-            {children}
+export default function Layout(props) {
 
-        </div>        
+  /* props.gradientColors
+      1 = 'blue'
+      2 = 'green'
+  */
+  return (
+    <div className={`layout ${props.gradientColors ? 'blueGradient' : 'greenGradient'}`}>
+            {props.children}
     </div>
   )
 }

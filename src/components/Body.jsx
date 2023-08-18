@@ -66,10 +66,13 @@ export default function Body(){
                     'bg-desktopWallpaper3',
                     'bg-desktopWallpaper4',
                 ]}
-                title={info.home.cover.title}
-                subtitle={info.home.cover.subtitle}
-                description={info.home.cover.description}
-                button={info.home.cover.button}
+                annona={false}
+                content={{
+                    "title": info.home.cover.title,
+                    "subtitle": info.home.cover.subtitle,
+                    "description": info.home.cover.description,
+                    "button": info.home.cover.button
+                }}
             />
 
 

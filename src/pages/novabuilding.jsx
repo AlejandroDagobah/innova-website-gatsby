@@ -32,17 +32,23 @@ export default function NovaBuilding() {
 
 
   return (
-    <Layout>
+    <Layout
+        gradientColors={true}
+    >
         <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
         <HeroBanner
             imgs={[
-                "bg-desktopWallpaperNB1",
-                "bg-desktopWallpaperNB2"
+                "bg-desktopWallpaperNB2",
+                "bg-desktopWallpaperNB1"
             ]}
-            title={info.novabuilding.cover.title}
-            subtitle={info.novabuilding.cover.subtitle}
-            description={info.novabuilding.cover.description}
-            button={info.novabuilding.cover.button}
+            annona={false}
+            content={{
+                "title": info.novabuilding.cover.title,
+                "subtitle": info.novabuilding.cover.subtitle,
+                "description": info.novabuilding.cover.description,
+                "button": info.novabuilding.cover.button
+            }}
+            
 
         />
 

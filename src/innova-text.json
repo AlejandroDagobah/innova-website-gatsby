@@ -65,7 +65,7 @@
             ]
         },
         "novaprofit":{
-            "title": "NovaProfit",
+            "title": "NOVAPROFIT",
             "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
             "button": "Descubre más",
             "img": "/img/novaprofit-investment.png"
@@ -87,7 +87,7 @@
     "novabuilding":{
         "cover":{
             "subtitle": "Inteligencia Econstructiva",
-            "title": "Novabuilding",
+            "title": "NOVABUILDING",
             "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
             "button": "Conoce nuestros proyectos"
         },
@@ -95,6 +95,94 @@
             "title": "La Construcción <br> Tradicional",
             "subtitle":"El peligro de",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis"
+        }
+    },
+
+    "annona":{
+        "cover":{
+            "logo": "/img/annona-logo.png",
+            "title": "CONUJUNTO RESIDENCIAL ANNONA",
+            "subtitle": "Ecoluxury",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae ",
+            "buttons":[
+                {"title": "Ubicación", "url":"/annona#ubicacion"},
+                {"title": "Planos", "url":"/annona#ubicacion"},
+                {"title": "Amenities", "url":"/annona#ubicacion"},
+                {"title": "Interiores", "url":"/annona#ubicacion"}
+            ]
+        },
+        "ecoluxury":{
+            "title": "<span style='color:#FCE269'>VIVE</span><br> ECOLUXURY",
+            "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
+            "button": "Descubre más",
+            "img": "/img/annona-ecoluxury-movil.png"
+        },
+        "location":{
+            "title": "Ubicación",
+            "sections":[
+                {
+                    "title": "Guayllabamba",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                },
+                {
+                    "title": "Clima",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                },
+                {
+                    "title": "Puntos de interés",
+                    "description": "Punto 1, Punto 2, Punto 3"
+                }
+            ]
+        },
+        "amenities":{
+            "title": "Amenities",
+            "description": "Nuestras exclusivas casas ecológicas, están diseñadas para ser sismorresistentes, termoacústicas y en total armonía con la naturaleza. Encontrarás en ellas la combinación ideal entre confort, lujo, privacidad y respeto por el medio ambiente.",
+            "icons":[
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                }
+            ]
+        },
+        "planos":{
+            "title": "Planos de la Casa",
+            "description": "Disfruta de un hogar sostenible y seguro, donde cada detalle ha sido cuidadosamente pensado para garantizar tu bienestar y el de tu familia."
+        },
+        "ecoamigable":{
+            "title": "Un espacio Ecoamigable",
+            "description": "Vive en armonía con la naturaleza sin renunciar al lujo y confort que te mereces"
         }
     },
 

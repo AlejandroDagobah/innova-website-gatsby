@@ -26,7 +26,13 @@ module.exports = withMT({
         InnovaGreen: '#7FBA42',
         InnovaGreenDarker: '#548A1C',
         InnovaRed: '#BA4242',
-  
+        
+        AnnonaGreenBG: '#035E36',
+        AnnonaGreenBG2: '#',
+        AnnonaYellow: '#FCE269',
+        AnnonaYellowHover: '#FFDD41',
+
+
       },
 
       rotate: {
@@ -54,7 +60,32 @@ module.exports = withMT({
         'desktopWallpaper4': "url('/img/bg-wallpaper-annona-4.png')",
 
         'desktopWallpaperNB1': "url('/img/bg-wallpaper-annona-fachada.png')",
-        'desktopWallpaperNB2': "url('/img/bg-wallpaper-altamira-fachada.png')"
+        'desktopWallpaperNB2': "url('/img/bg-wallpaper-altamira-fachada.png')",
+
+        'annonaEcoluxury': "url('/img/annona-ecoluxury-bg-desktop.png')",
+
+        'annonaAmenities1': "url('/img/annona-renders/amenities/amenities-1.png')",
+        'annonaAmenities2': "url('/img/annona-renders/amenities/amenities-2.png')",
+        'annonaAmenities3': "url('/img/annona-renders/amenities/amenities-3.png')",
+        'annonaAmenities4': "url('/img/annona-renders/amenities/amenities-4.png')",
+        'annonaAmenities5': "url('/img/annona-renders/amenities/amenities-5.png')",
+        'annonaAmenities6': "url('/img/annona-renders/amenities/amenities-6.png')",
+        'annonaAmenities7': "url('/img/annona-renders/amenities/amenities-7.png')",
+
+        'annonaInteriores1': "url('/img/annona-renders/interiores/annona-interiores-1.png')",
+        'annonaInteriores2': "url('/img/annona-renders/interiores/annona-interiores-2.png')",
+        'annonaInteriores3': "url('/img/annona-renders/interiores/annona-interiores-3.png')",
+        'annonaInteriores4': "url('/img/annona-renders/interiores/annona-interiores-4.png')",
+        'annonaInteriores5': "url('/img/annona-renders/interiores/annona-interiores-5.png')",
+        'annonaInteriores6': "url('/img/annona-renders/interiores/annona-interiores-6.png')",
+        'annonaInteriores7': "url('/img/annona-renders/interiores/annona-interiores-7.png')",
+        'annonaInteriores8': "url('/img/annona-renders/interiores/annona-interiores-8.png')",
+        'annonaInteriores9': "url('/img/annona-renders/interiores/annona-interiores-9.png')",
+        'annonaInteriores10': "url('/img/annona-renders/interiores/annona-interiores-10.png')",
+        'annonaInteriores11': "url('/img/annona-renders/interiores/annona-interiores-11png')",
+
+        'eco': "url('bg-eco.png)"
+
       },
       fontSize: {
         clampMainTitle: "clamp(2.5rem, 7vw, 4rem)",

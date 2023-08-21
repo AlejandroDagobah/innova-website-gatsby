@@ -85,8 +85,17 @@ module.exports = withMT({
         'annonaInteriores11': "url('/img/annona-renders/interiores/annona-interiores-11png')",
 
         'Eco': "url('/img/background-eco-desktop.png')",
-        'hexagonsHouse': "url('/img/hexagons-img.png')"
+        'EcoMovil': "url('/img/background-ecoamigable-movil.png')",
+        'hexagonsHouse': "url('/img/hexagons-img.png')",
+        
 
+        'annonaPlano1': "url('/img/annona-renders/planos/plano-1.png')",
+        'annonaPlano2': "url('/img/annona-renders/planos/plano-2.png')",
+        'annonaPlano3': "url('/img/annona-renders/planos/plano-3.png')",
+        'annonaPlano4': "url('/img/annona-renders/planos/plano-4.png')",
+        'annonaPlano5': "url('/img/annona-renders/planos/plano-5.png')",
+        'annonaPlano6': "url('/img/annona-renders/planos/plano-6.png')",
+        'notFoundBG': "url('/img/bg-wallpaper-not-found.png')"
       },
       fontSize: {
         clampMainTitle: "clamp(2.5rem, 7vw, 4rem)",

@@ -29,7 +29,7 @@ export default function Annona() {
         return (
             <div className='flex flex-row'>
                 <img src={item.img} alt="" className='w-[40px] h-[40px] mr-4' />
-                <p className="text-white mb-5 lg:text-lg">{item.description}</p>
+                <p className="text-white mb-5 text-clampText lg:text-lg">{item.description}</p>
             </div>
 
         )
@@ -81,9 +81,9 @@ export default function Annona() {
         </div>
 
         {/* UBICACION */}
-        <div className="flex flex-col justify-between items-center md:flex-row-reverse my-14 px-6 lg:px-36">
-        <iframe className='min-h-[400px] lg:min-h-[600px] map aspect-square' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9080177750266!2d-78.35785073211493!3d-0.061317512829456584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58b9298ee77d1%3A0xad0fa838126119e5!2s12%20de%20Octubre!5e0!3m2!1ses-419!2sec!4v1692392479343!5m2!1ses-419!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
-            <section className="px-4 flex flex-col max-w-[420px] items-center mt-8">
+        <div id='ubicacion' className="flex flex-col justify-between items-center md:flex-row-reverse my-14 px-6 lg:px-36">
+        <iframe className='w-[90vw] lg:min-h-[600px] map aspect-square' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9080177750266!2d-78.35785073211493!3d-0.061317512829456584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58b9298ee77d1%3A0xad0fa838126119e5!2s12%20de%20Octubre!5e0!3m2!1ses-419!2sec!4v1692392479343!5m2!1ses-419!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            <section className="px-4 flex flex-col justify-center flex-1 items-center mt-8">
                 <div>
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.location.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
@@ -94,7 +94,7 @@ export default function Annona() {
         </div>
 
         {/* AMENITIES */}
-        <div className="flex flex-col md:flex-row justify-between items-center mt-14">
+        <div id='amenities' className="flex flex-col md:flex-row justify-between items-center mt-14">
             <div className='h-[800px] w-[100%] md:max-w-[40%] flex-1'>
                 <Carousel 
                     transition={{type: 'tween', duration: 2}} 
@@ -123,7 +123,7 @@ export default function Annona() {
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
                     <p className="text-white mb-5 lg:text-lg">{info.annona.amenities.description}</p>
 
-                    <div className='grid grid-cols-2 gap-2 max-w-[400px]'>
+                    <div className='grid grid-cols-2 gap-3 max-w-[450px]'>
                         {iconsAmenities}
 
                     </div>
@@ -133,7 +133,7 @@ export default function Annona() {
         </div>
 
         {/* Interiores */}
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div id='interiores' className="flex flex-col md:flex-row justify-between items-center">
             
                 <Carousel 
                     transition={{type: 'tween', duration: 2}} 
@@ -160,8 +160,8 @@ export default function Annona() {
         </div>
 
         {/* Planos */}
-        <div className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center">
-            <div className='h-[800px] w-[100%] md:max-w-[40%] flex-1'>
+        <div id='planos' className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center">
+            <div className='h-[500px] w-[100%] md:max-w-[50%] flex-1'>
                 <Carousel 
                     transition={{type: 'tween', duration: 2}} 
                     autoplay={true}
@@ -171,14 +171,13 @@ export default function Annona() {
 
                 >
 
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities1 `}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities2`}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities3`}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities4`}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities5`}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities6 `}></div>
-                    <div className={`z-0 w-auto h-full bg-cover bg-bottom bg-no-repeat bg-annonaAmenities7 `}></div>
-                            
+                    <div className={`z-0 w-auto h-full bg-annonaPlano1 bg-cover bg-bottom bg-no-repeat`}></div>
+                    <div className={`z-0 w-auto h-full bg-cover bg-annonaPlano2 bg-bottom bg-no-repeat`}></div>
+                    <div className={`z-0 w-auto h-full bg-cover bg-annonaPlano3 bg-bottom bg-no-repeat`}></div>
+                    <div className={`z-0 w-auto h-full bg-cover bg-annonaPlano4 bg-bottom bg-no-repeat`}></div>
+                    <div className={`z-0 w-auto h-full bg-cover bg-annonaPlano5 bg-bottom bg-no-repeat`}></div>
+                    <div className={`z-0 w-auto h-full bg-cover bg-annonaPlano6 bg-bottom bg-no-repeat`}></div>
+      
 
                 </Carousel>
             </div>
@@ -204,27 +203,26 @@ export default function Annona() {
         <div className='flex flex-col text-center w-full h-[500px] justify-center'>
             <h2 className="text-white font-bold text-clampTitle mb-4">Formas de Pago</h2>
 
-            <div className='flex-row flex gap-8 justify-center mt-6'>
-                <div className='flex flex-col justify-center text-center items-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
-                    <p className="text-white mb-5 lg:text-lg">Contado</p>
+            <div className='flex flex-col md:flex-row flex gap-8 justify-center mt-6 items-center'>
+                <div className='flex flex-col justify-center text-center items-center w-[200px]'>
+                    <img src='/img/icons-annona/contado.png' alt="" className='w-[40px] h-[40px]' />
+                    <p className="text-white mb-5 lg:text-lg">Por Contado</p>
                 </div>
-                <div className='flex flex-col justify-center text-center items-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
-                    <p className="text-white mb-5 lg:text-lg">Contado</p>
+                <div className='flex flex-col justify-center text-center items-center w-[200px]'>
+                    <img src='/img/icons-annona/credito-directo.png' alt="" className='w-[40px] h-[40px]' />
+                    <p className="text-white mb-5 lg:text-lg">Crédito directo</p>
                 </div>
-                <div className='flex flex-col justify-center text-center items-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
-                    <p className="text-white mb-5 lg:text-lg">Contado</p>
+                <div className='flex flex-col justify-center text-center items-center w-[200px]'>
+                    <img src='/img/icons-annona/credito-hipotecario.png' alt="" className='w-[40px] h-[40px]' />
+                    <p className="text-white mb-5 lg:text-lg">Crédito hipotecario</p>
                 </div>
             </div>
-           
 
         </div>
 
 
 
-        <div className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center -mt-40 -mb-24 min-h-[1000px] px-6 lg:px-48 bg-hexagonsHouse bg-contain bg-right bg-no-repeat ">
+        <div id='contacto' className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center -mt-40 -mb-24 min-h-[1000px] px-6 lg:px-48 bg-hexagonsHouse bg-contain bg-right bg-no-repeat ">
 
             <div className='h-[500px]max-w-[50%] flex-1'>
             </div>
@@ -233,8 +231,7 @@ export default function Annona() {
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.formulario.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
                     <p className="text-white mb-5 lg:text-lg">{info.annona.formulario.description}</p>
-                    <script type="text/javascript" src="https://api.clientify.net/web-marketing/webforms/script/146514.js"></script>
-
+                    <iframe src="https://apps.clientify.net/formbuilderembed/simpleembed/#/forms/embedform/146590/26397" height="500" frameBorder="0"></iframe>
             </section>
         </div>
 

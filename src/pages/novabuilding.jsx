@@ -21,6 +21,8 @@ export default function NovaBuilding() {
                     img={item.img}
                     title={item.title}
                     location={item.location}
+                    url={item.url}
+
                 />
             )
         })

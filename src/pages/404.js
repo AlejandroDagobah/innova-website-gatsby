@@ -2,6 +2,9 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import HeaderResponsive from '../components/HeaderResponsive';
+import HeroBanner from "../components/HeroBanner";
+
+import info from "../innova-text.json"
 
 export default function NotFound() {
 
@@ -10,11 +13,26 @@ export default function NotFound() {
 
   return (
     
-    <Layout>
-        
+    <Layout
+        gradientColors={true}
+    >
         <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
+        <HeroBanner
+            imgs={[
+                "bg-notFoundBG"
+            ]}
+            annona={false}
+            content={{
+                "title": info.notFound.title,
+                "subtitle": info.notFound.subtitle,
+                "description": info.notFound.description,
+                "button": info.notFound.button.text,
+                "url": info.notFound.button.url
+            }}
+            
 
-        <h1>404 NOT FOUND</h1>
+        />
+
         <Footer/>
     </Layout>
   )

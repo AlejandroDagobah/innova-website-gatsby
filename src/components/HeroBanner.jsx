@@ -58,7 +58,7 @@ function HeroContent(props){
                 <h3 className="font-bold text-InnovaGreen">{props.content.subtitle}</h3>
                 <h1 className="font-bold text-white text-clampMainTitle">{props.content.title}</h1>
                 <p className="text-white mt-4 mb-4 max-w-[540px]">{props.content.description}</p>
-                <a className="max-w-[300px] innovaButton hover:bg-InnovaGreenDarker cursor-pointer ease-in-out delay-100 duration-300">{props.content.button}</a>
+                <Link href={props.content.url} className="max-w-[300px] innovaButton hover:bg-InnovaGreenDarker cursor-pointer ease-in-out delay-100 duration-300">{props.content.button}</Link>
             </section>
         </div>
     )
@@ -91,9 +91,9 @@ function AnnonaContent(props){
                 <div className='grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5'>
                     {buttons}
                     
-                    <a href="" className='mt-14 w-[60px] h-[60px] bg-AnnonaYellow items-center flex justify-center rounded-full animate-bounce ml-8'>
+                    <Link to="/annona#contacto" className='mt-14 w-[60px] h-[60px] bg-AnnonaYellow items-center flex justify-center rounded-full animate-bounce ml-8'>
                         <IconPhone color='#035E36' width='50px' />
-                    </a>
+                    </Link>
                 </div>
 
             </section>

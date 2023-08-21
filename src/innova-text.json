@@ -72,7 +72,7 @@
         },
         "nuestroCompromiso":{
             "title": "Nuestro Compromiso",
-            "description": "Generar un retorno de inversión  seguro y superior al promedio del mercado financiero.",
+            "description": "Aportar a un mercardo inmobiliario amigable con el medio ambiente, mediante la fabricación de ecoladrillos que permiten una construcción sostenible, de calidad y sobre todo ecoamigable.",
             "img": "/img/forest-block-red.png"
 
         },
@@ -94,7 +94,7 @@
         "peligro":{
             "title": "La Construcción <br> Tradicional",
             "subtitle":"El peligro de",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis"
+            "description":"La producción de ladrillos tradicionales emplea combustibles altamente contaminantes para el medio ambiente y el ser humano."
         }
     },
 
@@ -103,12 +103,12 @@
             "logo": "/img/annona-logo.png",
             "title": "CONUJUNTO RESIDENCIAL ANNONA",
             "subtitle": "Ecoluxury",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae ",
+            "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro  y turístico.",
             "buttons":[
                 {"title": "Ubicación", "url":"/annona#ubicacion"},
-                {"title": "Planos", "url":"/annona#ubicacion"},
-                {"title": "Amenities", "url":"/annona#ubicacion"},
-                {"title": "Interiores", "url":"/annona#ubicacion"}
+                {"title": "Planos", "url":"/annona#planos"},
+                {"title": "Amenities", "url":"/annona#amenities"},
+                {"title": "Interiores", "url":"/annona#interiores"}
             ]
         },
         "ecoluxury":{
@@ -122,15 +122,15 @@
             "sections":[
                 {
                     "title": "Guayllabamba",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                    "description": "Calle Abdón Calderón"
                 },
                 {
                     "title": "Clima",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                    "description": "Subtropical"
                 },
                 {
                     "title": "Puntos de interés",
-                    "description": "Punto 1, Punto 2, Punto 3"
+                    "description": "Entidades financieras, Zonas  y atractivos turísticos, Centros médicos, Instituciones educativas"
                 }
             ]
         },
@@ -143,36 +143,40 @@
                     "description": "Piscina"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/area-infantil.png",
+                    "description": "Área Infantil"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/area-bbq.png",
+                    "description": "Área BBQ"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/casa-comunal.png",
+                    "description": "Casa comunal"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/pet-park.png",
+                    "description": "Pet Park"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/cancha-de-padel.png",
+                    "description": "Cancha de Padel"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/gym.png",
+                    "description": "Gimnasio al aire libre y cubierto"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/herramientas.png",
+                    "description": "Biblioteca de herramientas"
                 },
                 {
-                    "img": "/img/icons-annona/piscina.png",
-                    "description": "Piscina"
+                    "img": "/img/icons-annona/parking.png",
+                    "description": "Parqueadero para visitas"
+                },
+                {
+                    "img": "/img/icons-annona/seguridad.png",
+                    "description": "Seguridad y Guardianía"
                 }
             ]
         },
@@ -188,6 +192,13 @@
             "title": "¿Quieres iniciar tu vida Ecoluxury en Guayllabamba?",
             "description": "Escríbenos y un ejecutivo se pondrá en contacto lo más pronto posible."
         }
+    },
+
+    "notFound":{
+        "title": "Esta página esta en Construcción.",
+        "subtitle": "404 NOT FOUND",
+        "subscription": "",
+        "button": {"text": "Regresar al Home", "url": "/"}
     },
 
     "header":{

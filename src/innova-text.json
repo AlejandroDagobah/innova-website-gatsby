@@ -183,6 +183,10 @@
         "ecoamigable":{
             "title": "Un espacio Ecoamigable",
             "description": "Vive en armonía con la naturaleza sin renunciar al lujo y confort que te mereces"
+        },
+        "formulario":{
+            "title": "¿Quieres iniciar tu vida Ecoluxury en Guayllabamba?",
+            "description": "Escríbenos y un ejecutivo se pondrá en contacto lo más pronto posible."
         }
     },
 

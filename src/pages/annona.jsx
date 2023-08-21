@@ -95,13 +95,13 @@ export default function Annona() {
 
         {/* AMENITIES */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-14">
-            <div className='h-[800px] max-w-[40%] flex-1'>
+            <div className='h-[800px] w-[100%] md:max-w-[40%] flex-1'>
                 <Carousel 
                     transition={{type: 'tween', duration: 2}} 
                     autoplay={true}
                     autoplayDelay={5000}
                     loop={true}
-                    className="h-full w-full"
+                    className="h-[400px] w-[100vw] md:h-full md:w-full"
 
                 >
 
@@ -117,7 +117,7 @@ export default function Annona() {
                 </Carousel>
             </div>
 
-            <section className="px-4 flex flex-col items-center mt-8 flex-1">
+            <section className="px-4 py-8 flex flex-col items-center md:mt-8 flex-1">
                 <div>
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.amenities.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
@@ -161,13 +161,13 @@ export default function Annona() {
 
         {/* Planos */}
         <div className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center">
-            <div className='h-[500px]max-w-[50%] flex-1'>
+            <div className='h-[800px] w-[100%] md:max-w-[40%] flex-1'>
                 <Carousel 
                     transition={{type: 'tween', duration: 2}} 
                     autoplay={true}
                     autoplayDelay={5000}
                     loop={true}
-                    className="h-[450px] w-[950px]"
+                    className="h-[400px] w-[100vw] md:h-full md:w-full"
 
                 >
 
@@ -183,7 +183,7 @@ export default function Annona() {
                 </Carousel>
             </div>
 
-            <section className="px-4 flex flex-col items-center mt-8 flex-1">
+            <section className="px-4  py-8 flex flex-col items-center md:mt-8 flex-1">
                 <div>
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.planos.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
@@ -195,29 +195,53 @@ export default function Annona() {
         </div>
 
 
-        <div className='flex flex-col justify-center items-center text-center w-full h-[800px] bg-eco bg-cover bg-center'>
+        <div className='flex flex-col justify-center items-center text-center w-full h-[800px] bg-Eco bg-cover bg-center'>
             <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.ecoamigable.title}}></h2>
             <p className="text-white mb-5 lg:text-lg">{info.annona.ecoamigable.description}</p>
 
         </div>
 
-        <div className='flex flex-col text-center w-full h-[500px] bg-eco bg-cover bg-center'>
+        <div className='flex flex-col text-center w-full h-[500px] justify-center'>
             <h2 className="text-white font-bold text-clampTitle mb-4">Formas de Pago</h2>
-            <div className='flex-row flex gap-5 justify-center'>
-                <div className='flex flex-col justify-center text-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px] mr-4' />
+
+            <div className='flex-row flex gap-8 justify-center mt-6'>
+                <div className='flex flex-col justify-center text-center items-center'>
+                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
                     <p className="text-white mb-5 lg:text-lg">Contado</p>
                 </div>
-                <div className='flex flex-col justify-center  text-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px] mr-4' />
+                <div className='flex flex-col justify-center text-center items-center'>
+                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
                     <p className="text-white mb-5 lg:text-lg">Contado</p>
                 </div>
-                <div className='flex flex-col justify-center  text-center'>
-                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px] mr-4' />
+                <div className='flex flex-col justify-center text-center items-center'>
+                    <img src='/img/icons-annona/piscina.png' alt="" className='w-[40px] h-[40px]' />
                     <p className="text-white mb-5 lg:text-lg">Contado</p>
                 </div>
             </div>
            
+
+        </div>
+
+
+
+        <div className="flex flex-col md:flex-row md:flex-row-reverse justify-between items-center -mt-40 -mb-24 min-h-[1000px] px-6 lg:px-48 bg-hexagonsHouse bg-contain bg-right bg-no-repeat ">
+
+            <div className='h-[500px]max-w-[50%] flex-1'>
+            </div>
+
+            <section className="px-4 flex flex-col items-center text-center mt-8 flex-1">
+                    <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.formulario.title}}></h2>
+                    <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
+                    <p className="text-white mb-5 lg:text-lg">{info.annona.formulario.description}</p>
+                    <script type="text/javascript" src="https://api.clientify.net/web-marketing/webforms/script/146514.js"></script>
+
+            </section>
+        </div>
+
+
+        <div className="flex flex-col justify-center items-center bg-cover bg-center h-[400px] bg-natureIntelligence">
+            <h4 className="font-bold text-white text-center text-clampTitle break-words px-4" dangerouslySetInnerHTML={{__html: info.home.callToAction.title}}></h4>
+            <a className="innovaButton">{info.home.callToAction.button}</a>
 
         </div>
 

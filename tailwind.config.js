@@ -84,7 +84,8 @@ module.exports = withMT({
         'annonaInteriores10': "url('/img/annona-renders/interiores/annona-interiores-10.png')",
         'annonaInteriores11': "url('/img/annona-renders/interiores/annona-interiores-11png')",
 
-        'eco': "url('bg-eco.png)"
+        'Eco': "url('/img/background-eco-desktop.png')",
+        'hexagonsHouse': "url('/img/hexagons-img.png')"
 
       },
       fontSize: {

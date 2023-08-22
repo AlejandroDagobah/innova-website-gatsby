@@ -16,9 +16,11 @@ export default function Annona() {
     var sections = info.annona.location.sections.map((item, index)=>{
 
         return (
-            <div>
+            <div className='mt-4'>
                 <h4 className="text-white font-bold text-lg" dangerouslySetInnerHTML={{__html: item.title}}></h4>
-                <p className="text-white mb-5 lg:text-lg">{item.description}</p>
+                <ul className="text-white mb-5 lg:text-lg list-disc ml-6"  dangerouslySetInnerHTML={{__html: item.description}}></ul>
+
+                
             </div>
 
         )
@@ -80,14 +82,19 @@ export default function Annona() {
             </section>
         </div>
 
+
         {/* UBICACION */}
-        <div id='ubicacion' className="flex flex-col justify-between items-center md:flex-row-reverse my-14 px-6 lg:px-36">
-        <iframe className='w-[90vw] lg:min-h-[600px] map aspect-square' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9080177750266!2d-78.35785073211493!3d-0.061317512829456584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58b9298ee77d1%3A0xad0fa838126119e5!2s12%20de%20Octubre!5e0!3m2!1ses-419!2sec!4v1692392479343!5m2!1ses-419!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
-            <section className="px-4 flex flex-col justify-center flex-1 items-center mt-8">
+        <div id='ubicacion' className="flex flex-col justify-center items-center md:flex-row-reverse my-14 px-6 lg:px-36">
+
+            <iframe className='w-[90vw] md:w-[60vw] md:max-w-[40%] map aspect-square flex-1 md:ml-[100px] lg:ml-[200px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9080177750266!2d-78.35785073211493!3d-0.061317512829456584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58b9298ee77d1%3A0xad0fa838126119e5!2s12%20de%20Octubre!5e0!3m2!1ses-419!2sec!4v1692392479343!5m2!1ses-419!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+
+            <section className="px-4 py-8 flex flex-col items-center md:mt-8">
                 <div>
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.location.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
+
                     {sections}
+                    
                 </div>
 
             </section>
@@ -206,7 +213,7 @@ export default function Annona() {
             <div className='flex flex-col md:flex-row flex gap-8 justify-center mt-6 items-center'>
                 <div className='flex flex-col justify-center text-center items-center w-[200px]'>
                     <img src='/img/icons-annona/contado.png' alt="" className='w-[40px] h-[40px]' />
-                    <p className="text-white mb-5 lg:text-lg">Por Contado</p>
+                    <p className="text-white mb-5 lg:text-lg">Contado</p>
                 </div>
                 <div className='flex flex-col justify-center text-center items-center w-[200px]'>
                     <img src='/img/icons-annona/credito-directo.png' alt="" className='w-[40px] h-[40px]' />
@@ -231,7 +238,7 @@ export default function Annona() {
                     <h2 className="text-white font-bold text-clampTitle" dangerouslySetInnerHTML={{__html: info.annona.formulario.title}}></h2>
                     <span className='h-[2px] w-[200px] bg-AnnonaYellow block my-4'></span>
                     <p className="text-white mb-5 lg:text-lg">{info.annona.formulario.description}</p>
-                    <iframe src="https://apps.clientify.net/formbuilderembed/simpleembed/#/forms/embedform/146590/26397" height="500" frameBorder="0"></iframe>
+                    <iframe src="https://apps.clientify.net/formbuilderembed/simpleembed/#/forms/embedform/146590/26397" height="300" width='600' className='overflow-hidden -p-8 w-full'></iframe>
             </section>
         </div>
 

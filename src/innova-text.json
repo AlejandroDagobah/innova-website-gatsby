@@ -122,7 +122,7 @@
             "sections":[
                 {
                     "title": "Guayllabamba",
-                    "description": "Calle Abdón Calderón"
+                    "description": "Calle 12 de Occtubre"
                 },
                 {
                     "title": "Clima",
@@ -130,7 +130,7 @@
                 },
                 {
                     "title": "Puntos de interés",
-                    "description": "Entidades financieras, Zonas  y atractivos turísticos, Centros médicos, Instituciones educativas"
+                    "description": "<li>Entidades financieras</li><li>Zonas y atractivos turísticos</li><li>Centros médicos</li><li>Instituciones educativas</li>"
                 }
             ]
         },
@@ -160,7 +160,7 @@
                 },
                 {
                     "img": "/img/icons-annona/cancha-de-padel.png",
-                    "description": "Cancha de Padel"
+                    "description": "Cancha de Pádel"
                 },
                 {
                     "img": "/img/icons-annona/gym.png",

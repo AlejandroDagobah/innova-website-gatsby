@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import HeaderResponsive from '../components/HeaderResponsive';
 import HeroBanner from "../components/HeroBanner";
-
+import SEO from '../components/Seo';
 import info from "../innova-text.json"
 
 export default function NotFound() {
@@ -36,4 +36,12 @@ export default function NotFound() {
         <Footer/>
     </Layout>
   )
+}
+
+
+export function Head() {
+    return(
+      <SEO/>
+    )
+
 }

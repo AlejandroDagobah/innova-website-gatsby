@@ -4,7 +4,7 @@ import Header from "../components/Header"
 import Body from "../components/Body"
 import Footer from "../components/Footer"
 import HeaderResponsive from "../components/HeaderResponsive"
-
+import SEO from "../components/Seo"
 
 export default function Home() {
 
@@ -15,10 +15,20 @@ export default function Home() {
     <Layout 
       gradientColors={true}
     >
+      
       <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
       <Body/>
       <Footer/>
     </Layout>
 
   )
+}
+
+// export default Home
+
+export function Head() {
+    return(
+      <SEO/>
+    )
+
 }

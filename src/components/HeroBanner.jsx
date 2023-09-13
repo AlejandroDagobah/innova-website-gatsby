@@ -9,12 +9,12 @@ export default function HeroBanner(props) {
 
     var highlightColor = props.highlightColor || 'text-InnovaGreen'
     var buttonColor = props.buttonColor || 'bg-InnovaGreen hover:bg-InnovaGreenDarker'
-    var bgPosition = props.bgPos || 'bg-center'
+    var bgPosition = props.bgPos || 'bg-bottom'
 
     const imgElements = props.imgs.map((img, index)=>{
         
         return(
-            <div className={`z-0 w-auto min-h-screen ${img} ${bgPosition} sm:bg-center bg-cover bg-bottom bg-no-repeat`}></div>
+            <div className={`z-0 w-auto min-h-screen ${img} ${bgPosition} sm:bg-bottom bg-cover bg-no-repeat`}></div>
 
         )
 

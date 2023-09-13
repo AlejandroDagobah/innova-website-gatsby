@@ -76,7 +76,7 @@ export default function Novaprofit() {
             }}
             highlightColor={'text-InnovaGreenNovaprofit'}            
             buttonColor={'bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker'}  
-            bgPos={'bg-left'}          
+            bgPos={'bg-left-bottom'}          
         />
 
         {/* CARDS */}

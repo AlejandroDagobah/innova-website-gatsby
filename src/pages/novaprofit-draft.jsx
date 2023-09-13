@@ -127,7 +127,7 @@ export default function Novaprofit() {
         </div>
 
 
-        <div className='px-6 pb-32 flex flex-col md:flex-row justify-center'>
+        <div id='pools' className='px-6 pb-32 flex flex-col md:flex-row justify-center'>
             {novaProfitProjects()}
         </div>
 

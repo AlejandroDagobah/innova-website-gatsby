@@ -63,7 +63,7 @@ function HeroContent(props){
                 <h3 className={`font-bold ${props.color}`}>{props.content.subtitle}</h3>
                 <h1 className="font-bold text-white text-clampMainTitle">{props.content.title}</h1>
                 <p className="text-white mt-4 mb-4 max-w-[540px]">{props.content.description}</p>
-                <Link href={props.content.url} className={`max-w-[300px] innovaButton ${props.buttonColor} cursor-pointer ease-in-out delay-100 duration-300`}>{props.content.button}</Link>
+                <Link to={props.content.url} className={`max-w-[300px] innovaButton ${props.buttonColor} cursor-pointer ease-in-out delay-100 duration-300`}>{props.content.button}</Link>
             </section>
         </div>
     )

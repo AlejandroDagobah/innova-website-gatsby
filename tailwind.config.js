@@ -26,6 +26,9 @@ module.exports = withMT({
         InnovaGreen: '#7FBA42',
         InnovaGreenDarker: '#548A1C',
         InnovaRed: '#BA4242',
+        InnovaGreenNovaprofit: '#00B775',
+        InnovaGreenNovaprofitDarker: '#068A5A',
+        
         
         AnnonaGreenBG: '#035E36',
         AnnonaGreenBG2: '#',
@@ -58,6 +61,8 @@ module.exports = withMT({
         'desktopWallpaper2': "url('/img/bg-wallpaper-annona-2.png')",
         'desktopWallpaper3': "url('/img/bg-wallpaper-annona-3.png')",
         'desktopWallpaper4': "url('/img/bg-wallpaper-annona-4.png')",
+        
+        'desktopWallpaperNovaprofit': "url('/img/bg-wallpaper-novaprofit.png')",
 
         'desktopWallpaperNB1': "url('/img/bg-wallpaper-annona-fachada.png')",
         'desktopWallpaperNB2': "url('/img/bg-wallpaper-altamira-fachada.png')",
@@ -99,8 +104,12 @@ module.exports = withMT({
       },
       fontSize: {
         clampMainTitle: "clamp(2.5rem, 7vw, 4rem)",
-        clampTitle: "clamp(2rem, 6vw, 3rem)",
-        clampText: "clamp(0.75rem, 0.6798rem + 0.4321vw, 1rem)"
+        clampTitle: "clamp(2rem, 6vw, 2.6rem)",
+        clampTitleSmaller: "clamp(2rem, 5vw, 3rem)",
+        clampText: "clamp(0.75rem, 0.6798rem + 0.4321vw, 1rem)",
+        clampTextSm: "clamp(0.4rem, 0.4798rem + 0.4321vw, 1rem)",
+        clampTextBig: "clamp(0.90rem, 0.7rem + 0.5vw, 1.2rem)"
+
       },
     }
 

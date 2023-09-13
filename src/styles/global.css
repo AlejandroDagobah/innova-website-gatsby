@@ -8,6 +8,9 @@
     color: white;
 }
 
+html{scroll-behavior:smooth}
+
+
 @layer components{
 
     html{
@@ -44,6 +47,13 @@
         background: linear-gradient(180deg, rgba(3, 94, 54, 0.50) 0%, rgba(156, 182, 78, 0.50) 30.52%, rgba(156, 182, 78, 0.50) 64.73%, rgba(3, 94, 54, 0.50) 100%), #035E36;
 
     }
+
+    
+    .novaprofitGradient{
+        
+        background: linear-gradient(180deg, #064262 27.08%, #033B59 51.56%, #033B59 78.12%);
+    }
+
 
     .innovaButton{
         @apply bg-InnovaGreen py-2 px-4 mt-4 text-white font-medium rounded-tr-[30px] rounded-br-[30px] rounded-bl-[30px] 

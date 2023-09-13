@@ -9,7 +9,7 @@ export default function Layout(props) {
       2 = 'green'
   */
   return (
-    <div className={`layout ${props.gradientColors ? 'blueGradient' : 'greenGradient'}`}>
+    <div className={`layout ${props.gradientColors}`}>
             {props.children}
     </div>
   )

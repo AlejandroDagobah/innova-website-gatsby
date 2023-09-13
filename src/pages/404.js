@@ -14,7 +14,7 @@ export default function NotFound() {
   return (
     
     <Layout
-        gradientColors={true}
+        gradientColors={'blueGradient'}
     >
         <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
         <HeroBanner

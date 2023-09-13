@@ -1,6 +1,7 @@
 import React from "react"
 import info from "../innova-text.json"
 
+
 import Cards from "./Cards";
 import Projects from "./Projects";
 import HeroBanner from "./HeroBanner";
@@ -8,15 +9,9 @@ import HeroBanner from "./HeroBanner";
 
 export default function Body(){
 
-
-
     function cards() {
         var cardsElements = info.home.lines.cards.map((item, index)=>{
             
-            var backgroundImage = {
-                backgroundImage: `url(${item.link})`,
-            };
-
             return (
                 <Cards 
                     img={item.img}
@@ -71,7 +66,8 @@ export default function Body(){
                     "title": info.home.cover.title,
                     "subtitle": info.home.cover.subtitle,
                     "description": info.home.cover.description,
-                    "button": info.home.cover.button
+                    "button": info.home.cover.button,
+                    "url": info.home.cover.url
                 }}
             />
 
@@ -89,7 +85,7 @@ export default function Body(){
             </div>
         
             {/* PROJECTS */}
-            <div className="mb-12">
+            <div className="mb-12" id="projects">
                 <section className="px-6 md:text-center">
                     <h3 className="font-bold text-white md:text-3xl">Proyectos <span className="text-InnovaGreen">Novabuilding</span></h3>
                     <p className="text-white my-4 mx-auto">{info.home.projects.description}</p>
@@ -101,7 +97,16 @@ export default function Body(){
 
             {/* NOVAPROFIT */}
             <div className="flex flex-col mb-12 md:-mb-36 md:flex-row-reverse">
-                <img src={info.home.novaprofit.img} alt="" className="-mb-3 w-[100%] md:w-[62%] z-10"/>
+                {/* <StaticImage
+                    src='/img/novaprofit-investment.png'
+                    className="-mb-3 w-[100%] md:w-[62%] z-10"
+                    alt="inversiones inmobiliarias" 
+                    width={1000}
+                    height={1000}
+                /> */}
+
+                <img src="/img/novaprofit-investment.png" className="-mb-3 w-[100%] md:w-[62%] z-10" alt="inversiones inmobiliarias" />
+
                 <section className="pl-8 flex flex-col justify-center max-w-[420px]">
                     <div>
                         <h2 className="text-white font-bold mb-3 text-clampTitle">{info.home.novaprofit.title}</h2>

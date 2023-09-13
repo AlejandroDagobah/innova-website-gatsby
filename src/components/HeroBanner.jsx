@@ -7,10 +7,15 @@ import { IconPhone } from '@tabler/icons-react';
 
 export default function HeroBanner(props) {
 
+    var highlightColor = props.highlightColor || 'text-InnovaGreen'
+    var buttonColor = props.buttonColor || 'bg-InnovaGreen hover:bg-InnovaGreenDarker'
+    var bgPosition = props.bgPos || 'bg-center'
+
     const imgElements = props.imgs.map((img, index)=>{
         
         return(
-            <div className={`z-0 w-auto min-h-screen ${img} bg-cover bg-bottom bg-no-repeat`}></div>
+            <div className={`z-0 w-auto min-h-screen ${img} ${bgPosition} sm:bg-center bg-cover bg-bottom bg-no-repeat`}></div>
+
         )
 
     })
@@ -45,7 +50,7 @@ export default function HeroBanner(props) {
 
         </Carousel>
 
-        {props.annona ? <AnnonaContent content={props.content}/>: <HeroContent content={props.content}/>}
+        {props.annona ? <AnnonaContent content={props.content}/>: <HeroContent content={props.content} color={highlightColor} buttonColor={buttonColor}/>}
         
     </div>
   )
@@ -55,10 +60,10 @@ function HeroContent(props){
     return(
         <div className="z-10 flex flex-col px-6 h-screen justify-center relative md:px-36">
             <section className="self-center flex flex-col md:items-center md:text-center">
-                <h3 className="font-bold text-InnovaGreen">{props.content.subtitle}</h3>
+                <h3 className={`font-bold ${props.color}`}>{props.content.subtitle}</h3>
                 <h1 className="font-bold text-white text-clampMainTitle">{props.content.title}</h1>
                 <p className="text-white mt-4 mb-4 max-w-[540px]">{props.content.description}</p>
-                <Link href={props.content.url} className="max-w-[300px] innovaButton hover:bg-InnovaGreenDarker cursor-pointer ease-in-out delay-100 duration-300">{props.content.button}</Link>
+                <Link href={props.content.url} className={`max-w-[300px] innovaButton ${props.buttonColor} cursor-pointer ease-in-out delay-100 duration-300`}>{props.content.button}</Link>
             </section>
         </div>
     )
@@ -86,7 +91,6 @@ function AnnonaContent(props){
                 <img src={props.content.logo} alt="" className='max-w-[350px]'/>
                 <h3 className="font-bold text-InnovaGreen hidden">{props.content.subtitle}</h3>
                 <h1 className="font-bold text-white text-clampMainTitle hidden">{props.content.title}</h1>
-                <img src="" alt="" />
                 <p className="text-white mt-4 mb-4 max-w-[540px]">{props.content.description}</p>
                 <div className='grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5'>
                     {buttons}

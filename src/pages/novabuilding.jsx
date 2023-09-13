@@ -35,7 +35,7 @@ export default function NovaBuilding() {
 
   return (
     <Layout
-        gradientColors={true}
+        gradientColors={'blueGradient'}
     >
         <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
         <HeroBanner
@@ -48,14 +48,15 @@ export default function NovaBuilding() {
                 "title": info.novabuilding.cover.title,
                 "subtitle": info.novabuilding.cover.subtitle,
                 "description": info.novabuilding.cover.description,
-                "button": info.novabuilding.cover.button
+                "button": info.novabuilding.cover.button,
+                "url": info.novabuilding.cover.url
             }}
             
 
         />
 
         {/* PROJECTS */}
-        <div>
+        <div id='projects'>
             <section className="px-6 md:text-center">
                 <h3 className="font-bold text-white md:text-3xl">Proyectos <span className="text-InnovaGreen">Novabuilding</span></h3>
                 <p className="text-white my-4 mx-auto">{info.home.projects.description}</p>

@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 import HeaderResponsive from '../components/HeaderResponsive'
 import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
-import Projects from "../components/Projects";
 import SEO from '../components/Seo'
 
 import { Carousel } from "@material-tailwind/react";
@@ -52,7 +51,7 @@ export default function Annona() {
 
   return (
     <Layout
-        gradientColors={false}
+        gradientColors={'greenGradient'}
     >
         <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
         <HeroBanner

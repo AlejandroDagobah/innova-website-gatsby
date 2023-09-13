@@ -20,7 +20,7 @@ export default function Footer() {
 
 
             return (
-                <div className={`py-4 lg:pr-14 max-w-[350px] ${item.title == "CONTÁCTO" ? `md:pr-12`: ``}`} >
+                <div className={`py-4 lg:pr-14 max-w-[350px] ${item.title === "CONTÁCTO" ? `md:pr-12`: ``}`} >
                     <h6 className="text-white font-bold mb-1">{item.title}</h6>
                     <ul>
                         {list}

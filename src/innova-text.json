@@ -4,7 +4,8 @@
             "subtitle": "Inteligencia Econstructiva",
             "title": "Somos Innova Egroup",
             "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
-            "button": "Conoce nuestros proyectos"
+            "button": "Conoce nuestros proyectos",
+            "url": "#projects"
         },
         "lines":{
             "title":"Contamos con sólidas <span style='color:#7FBA42'> líneas de negocio </span> para una inversión inmobiliaria <span style='color:#7FBA42'>inteligente</span>",
@@ -89,12 +90,86 @@
             "subtitle": "Inteligencia Econstructiva",
             "title": "NOVABUILDING",
             "description": "Desarrollamos proyectos de inversión inmobiliaria a través de un innovador sistema de construcción eco-amigable para mejorar la calidad de vida y brindar tranquilidad financiera a nuestros clientes.",
-            "button": "Conoce nuestros proyectos"
+            "button": "Conoce nuestros proyectos",
+            "url": "#projects"
+
         },
         "peligro":{
             "title": "La Construcción <br> Tradicional",
             "subtitle":"El peligro de",
             "description":"La producción de ladrillos tradicionales emplea combustibles altamente contaminantes para el medio ambiente y el ser humano."
+        }
+    },
+
+    "novaprofit":{
+        "cover":{
+            "subtitle": "Crowdfunding inmobiliario econstructivo",
+            "title": "NOVAPROFIT",
+            "description": "NOVAPROFIT es una nueva forma de realizar inversiones inteligentes colaborativas, mediante un crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística de NOVABUILDING que permiten generar un retorno de inversión superior al promedio del mercado financiero.",
+            "button": "Revisar Inversiones",
+            "url": "#"
+        },
+        "lines":{
+            "title":"Nuestras diferentes <span style='color:#7FBA42'>líneas de Inversión</span>",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "cards":[
+                {
+                    "title": "",
+                    "description": "Quieres iniciar en el mundo de inversiones inmobiliarias y generar una rentabilidad inicial.",
+                    "investment": "Inversión desde un monto de <br/> <b>$3.000 hasta $20.000 </b>",
+                    "img": "/img/profitesencial.png",
+                    "url": "#",
+                    "color": "linear-gradient(0deg, rgba(3, 119, 110, 1), rgba(3, 119, 110, 1))"
+                    
+                },
+                {
+                    "title": "",
+                    "description": "Sabes que el mercado inmobiliario puede generarte excelentes réditos económicos y estás construyendo  un patrimonio para tu futuro.",
+                    "investment": "Inversión desde un monto de <br/> <b>$20.000 hasta $100.000</b>",
+                    "img": "/img/profitclassic.png",
+                    "url": "#",
+                    "color": "linear-gradient(0deg, rgba(62, 156, 53, 1), rgba(62, 156, 53, 1))"
+                    
+                },
+                {
+                    "title": "",
+                    "description": "Dominas las inversiones y sabes que si inviertes más, ganas más; está en tu ADN el mundo inversor y buscas nuevas oportunidades.",
+                    "investment": "Inversión desde un monto de <br/> <b>$100.000 en adelante</b>",
+                    "img": "/img/profitdeluxe.png",
+                    "url": "#",
+                    "color": "linear-gradient(145deg, rgba(244, 225, 137, 1), rgba(200, 165, 81, 1))"
+
+                }
+            ]
+        },
+        "redito":{
+            "title": "Conoce el rendimiento <br> de tu inversión",
+            "description": "NOVAPROFIT es una nueva forma de realizar inversiones inteligentes colaborativas, mediante un crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística de NOVABUILDING que permiten generar un retorno de inversión superior al promedio del mercado financiero.",
+            "img-stats": "",
+            "img-deco": ""
+        },
+        "pool":{
+            "title": "Se parte de nuestro pool de inversionistas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet non diam ut fermentum. Duis rhoncus orci sit amet nunc porta lacinia.",
+            "projects":[
+                {
+                    "logo":"/img/annona-logo.png",
+                    "location": "Guayllabamba, Pichincha",
+                    "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro y turístico.",
+                    "img": "/img/annona-hex.png",
+                    "button": "Revisar Proyecto",
+                    "url": "/annona"
+                },
+                {
+                    "logo":"/img/annona-logo.png",
+                    "location": "Guayllabamba, Pichincha",
+                    "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro y turístico.",
+                    "img": "/img/altamira-hex.png",
+                    "button": "Revisar Proyecto",
+                    "url": "/altamira"
+                }    
+            ]
+            
         }
     },
 

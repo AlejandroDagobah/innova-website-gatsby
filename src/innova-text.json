@@ -110,7 +110,7 @@
             "url": "#pools"
         },
         "lines":{
-            "title":"Nuestras diferentes <span style='color:#7FBA42'>líneas de Inversión</span>",
+            "title":"Conoce nuestras diferentes <span style='color:#7FBA42'>líneas de Inversión</span>",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "cards":[
                 {
@@ -149,28 +149,43 @@
             "img-deco": ""
         },
         "pool":{
-            "title": "Se parte de nuestro pool de inversionistas",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet non diam ut fermentum. Duis rhoncus orci sit amet nunc porta lacinia.",
+            "title": "Sé parte de nuestro pool de inversionistas",
+            "description": "Conoce todos nuestros proyectos.",
             "projects":[
                 {
                     "logo":"/img/annona-logo.png",
                     "location": "Guayllabamba, Pichincha",
-                    "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro y turístico.",
+                    "description": "Casas ecoamigables para una vida Eco Luxury en Guayllabamba.",
                     "img": "/img/annona-hex.png",
                     "button": "Revisar Proyecto",
                     "url": "/annona"
                 },
                 {
-                    "logo":"/img/annona-logo.png",
-                    "location": "Guayllabamba, Pichincha",
-                    "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro y turístico.",
+                    "logo":"/img/altamira-logo.png",
+                    "location": "Sector el Bosque, Quito",
+                    "description": "Departamentos con vista privilegiada ubicados en el sector de El Bosque.",
                     "img": "/img/altamira-hex.png",
                     "button": "Revisar Proyecto",
                     "url": "/altamira"
-                }    
+                },
+                {
+                    "logo":"/img/proyectos-logo.png",
+                    "location": "Futuras ubicaciones",
+                    "description": "Proyectos habitacionales Ecoamigables y rentables.",
+                    "img": "/img/proyectos-hex.png",
+                    "button": "Revisar Proyecto",
+                    "url": "/altamira"
+                } 
             ]
             
-        }
+        },
+        "callToAction":{
+            "title": "¿Listo para iniciar tu<span style='color:#00B775'> inversión</span>?",
+            "button": "Contáctanos",
+            "url": "#",
+            "img": "/img/nature-tech-bg.png"
+
+        }     
     },
 
     "annona":{

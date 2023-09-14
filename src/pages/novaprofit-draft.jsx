@@ -83,7 +83,6 @@ export default function Novaprofit() {
         <div className="z-10 flex flex-col px-6 relative mb-28 justify-center max-w-[1200px] mx-auto">
             <div className="max-w-[550px] md:text-center self-center">
                 <h3 className="font-bold text-white md:text-2xl" dangerouslySetInnerHTML={{__html: info.novaprofit.lines.title}}></h3>
-                {<p className="text-white mt-4 mr-4 mb-4">{info.novaprofit.lines.description}</p>}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
@@ -94,7 +93,6 @@ export default function Novaprofit() {
         {/* NOVAPROFIT */}
         <div className="px-6 max-w-[700px] md:text-center self-center m-auto">
             <h2 className="font-bold text-white text-clampTitle" dangerouslySetInnerHTML={{__html: info.novaprofit.redito.title}}></h2>
-            {<p className="text-white mt-4 mr-4 mb-4">{info.novaprofit.redito.description}</p>}
         </div>
 
         <div className="flex flex-col mb-12 lg:-mb-48 md:flex-row-reverse md:justify-between">
@@ -121,19 +119,20 @@ export default function Novaprofit() {
             </section>
         </div>
 
+        <a class="anchor" id="pools">a</a>
+
         <div className="px-6 max-w-[600px] md:text-center self-center m-auto">
             <h2 className="font-bold text-white text-clampTitle" dangerouslySetInnerHTML={{__html: info.novaprofit.pool.title}}></h2>
             {<p className="text-white mt-4 mr-4 mb-4">{info.novaprofit.pool.description}</p>}
         </div>
 
-
-        <div id='pools' className='px-6 pb-32 flex flex-col md:flex-row justify-center'>
+        <div className='px-6 py-8 pb-32 flex flex-col md:flex-row justify-center items-center m-auto max-w-[1200px]'>
             {novaProfitProjects()}
         </div>
 
         <div className="flex flex-col justify-center items-center bg-cover bg-center h-[400px] bg-natureIntelligence">
-            <h4 className="font-bold text-white text-center text-clampTitle break-words px-4" dangerouslySetInnerHTML={{__html: info.home.callToAction.title}}></h4>
-            <a className="innovaButton">{info.home.callToAction.button}</a>
+            <h4 className="font-bold text-white text-center text-clampTitle break-words px-4" dangerouslySetInnerHTML={{__html: info.novaprofit.callToAction.title}}></h4>
+            <a className="innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker ">{info.novaprofit.callToAction.button}</a>
 
         </div>
     

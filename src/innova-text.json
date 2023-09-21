@@ -110,7 +110,7 @@
             "url": "#pools"
         },
         "lines":{
-            "title":"Conoce nuestras diferentes <span style='color:#7FBA42'>líneas de Inversión</span>",
+            "title":"Conoce nuestras diferentes <span style='color:#459D28'>líneas de Inversión</span>",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "cards":[
                 {
@@ -172,15 +172,13 @@
                     "logo":"/img/proyectos-logo.png",
                     "location": "Futuras ubicaciones",
                     "description": "Proyectos habitacionales Ecoamigables y rentables.",
-                    "img": "/img/proyectos-hex.png",
-                    "button": "Revisar Proyecto",
-                    "url": "/altamira"
+                    "img": "/img/proyectos-hex.png"
                 } 
             ]
             
         },
         "callToAction":{
-            "title": "¿Listo para iniciar tu<span style='color:#00B775'> inversión</span>?",
+            "title": "¿Listo para iniciar tu<span style='color:#459D28'> inversión</span>?",
             "button": "Contáctanos",
             "url": "#",
             "img": "/img/nature-tech-bg.png"

@@ -61,7 +61,7 @@ export default function Novaprofit() {
       <Layout 
         gradientColors={'novaprofitGradient'}
       >
-        <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
+        <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu} bgColor={'headerScrollNovaprofit'} navLogo={{desktop:'/img/logo-novaprofit.png', movil:'/img/logo-novaprofit-movil.png'}}/>
         
         <HeroBanner
             imgs={[
@@ -76,7 +76,7 @@ export default function Novaprofit() {
             }}
             highlightColor={'text-InnovaGreenNovaprofit'}            
             buttonColor={'bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker'}  
-            bgPos={'bg-left-bottom'}          
+            bgPos={'bg-left-bottom'}
         />
 
         {/* CARDS */}
@@ -104,7 +104,7 @@ export default function Novaprofit() {
                 height={1000}
             /> */}
     
-            <img src="/img/novaprofit-investment-blueish.png" className="-mb-3 w-[100%] md:w-[50%] z-10 hidden md:block -mt-8" alt="inversiones inmobiliarias" />
+            <img src="/img/hexagon-novaprofit.png" className="-mb-3 w-[100%] md:w-[50%] z-10 hidden md:block -mt-8" alt="inversiones inmobiliarias" />
 
             <section className="flex flex-col md:justify-top">
 
@@ -132,7 +132,7 @@ export default function Novaprofit() {
 
         <div className="flex flex-col justify-center items-center bg-cover bg-center h-[400px] bg-natureIntelligence">
             <h4 className="font-bold text-white text-center text-clampTitle break-words px-4" dangerouslySetInnerHTML={{__html: info.novaprofit.callToAction.title}}></h4>
-            <a className="innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker ">{info.novaprofit.callToAction.button}</a>
+            <a className="innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker transition-all duration-300 ease-in hover:cursor-pointer">{info.novaprofit.callToAction.button}</a>
 
         </div>
     
@@ -147,7 +147,7 @@ export default function Novaprofit() {
   
   export function Head() {
       return(
-        <SEO/>
+        <SEO title="Novaprofit | Inversiones de bienes raíces en Ecuador" description="Invierte en bienes raíces en nuestros proyectos ecológicos y descubre una forma inteligente de crecimiento financiero, donde la sostenibilidad se fusiona con la rentabilidad."/>
       )
   
   }

@@ -14,7 +14,7 @@ export default function NovaprofitProject(props) {
             <img src={props.logo} className="mb-4 w-full max-w-[200px]" alt="" />
             <p className="text-white font-bold mr-4 md:mb-4">{props.location}</p>
             <p className="text-white mr-4 mb-8">{props.description}</p>
-            <Link to={props.url} className="max-w-[300px] innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker font-bold cursor-pointer px-6 py-3 ease-in-out delay-100 duration-300">{props.button}</Link>
+            {props.button && <Link to={props.url} className="max-w-[300px] innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker font-bold cursor-pointer px-6 py-3 ease-in-out delay-100 duration-300">{props.button}</Link>}
 
         </div>
 

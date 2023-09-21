@@ -53,7 +53,7 @@ export default function Annona() {
     <Layout
         gradientColors={'greenGradient'}
     >
-        <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu}/>
+        <HeaderResponsive toggle={toggleMenu} setToggle={setToggleMenu} bgColor={'headerScrollAnnona'}/>
         <HeroBanner
             imgs={[
                 "bg-desktopWallpaperNB1"            

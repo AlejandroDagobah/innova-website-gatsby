@@ -8,6 +8,10 @@ import { Link } from 'gatsby';
 
 export default function HeaderResponsive(props) {
 
+    const navLogoDesktop = props.navLogo != undefined ? props.navLogo.desktop : '/img/logo-white-horizontal.png'
+    const navLogoMovil = props.navLogo != undefined ? props.navLogo.movil : '/img/logo-white-icon.png'
+    const bgColor = props.bgColor != undefined ? props.bgColor : 'headerScroll'
+
     const [scroll, setScroll] = React.useState(0)
 
     useScroll(function setScrollPosition({currentPosition}){
@@ -39,13 +43,13 @@ export default function HeaderResponsive(props) {
 
     
     return(
-        <header className={`fixed w-full z-40 items-center px-4 py-4 transition ease-in-out duration-300 ${scroll < -100 ? 'headerScroll': 'headerNormal' }`}>
+        <header className={`fixed w-full z-40 items-center px-4 py-4 transition ease-in-out duration-300 ${scroll < -100 ? bgColor: 'headerNormal' }`}>
 
                 {/* DESKTOP MENU */}
                 <nav className="flex flex-row justify-between items-center hidden md:flex max-w-[1280px] mx-auto">
                     <Link to='/'>
-                       <img src="/img/logo-white-horizontal.png" alt="" className="hidden lg:block max-w-[250px]"/>
-                        <img src="/img/logo-white-icon.png" alt="" className="block lg:hidden max-w-[80px]"/>
+                       <img src={navLogoDesktop} alt="" className="hidden lg:block max-w-[250px]"/>
+                        <img src={navLogoMovil} alt="" className="block lg:hidden max-w-[80px]"/>
                     </Link>
 
                     <div className="flex flex-row items-center">
@@ -58,8 +62,8 @@ export default function HeaderResponsive(props) {
                 {/* MOVIL MENU CLOSED */}
                 <nav className="flex md:hidden flex-row justify-between items-center">
                     <Link to='/'>
-                        <img src="/img/logo-white-horizontal.png" alt="" className="hidden sm:block max-w-[250px]"/>
-                        <img src="/img/logo-white-icon.png" alt="" className="block sm:hidden max-w-[80px]"/>
+                        <img src={navLogoDesktop} alt="" className="hidden sm:block max-w-[250px]"/>
+                        <img src={navLogoMovil} alt="" className="block sm:hidden max-w-[80px]"/>
                     </Link>
 
 

@@ -26,8 +26,9 @@ module.exports = withMT({
         InnovaGreen: '#7FBA42',
         InnovaGreenDarker: '#548A1C',
         InnovaRed: '#BA4242',
-        InnovaGreenNovaprofit: '#00B775',
-        InnovaGreenNovaprofitDarker: '#068A5A',
+        InnovaGreyNovaprofit: '#464241',
+        InnovaGreenNovaprofit: '#459D28',
+        InnovaGreenNovaprofitDarker: '#39692A',
         
         
         AnnonaGreenBG: '#035E36',

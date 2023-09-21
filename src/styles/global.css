@@ -53,11 +53,10 @@ html{scroll-behavior:smooth}
         background: linear-gradient(180deg, rgba(3, 94, 54, 0.50) 0%, rgba(156, 182, 78, 0.50) 30.52%, rgba(156, 182, 78, 0.50) 64.73%, rgba(3, 94, 54, 0.50) 100%), #035E36;
 
     }
-
     
     .novaprofitGradient{
         
-        background: linear-gradient(180deg, #064262 27.08%, #033B59 51.56%, #033B59 78.12%);
+        background: linear-gradient(180deg, #464241 27.08%, #464241 51.56%, #625A58 78.12%);
     }
 
 
@@ -89,6 +88,15 @@ html{scroll-behavior:smooth}
     .headerScroll{
         @apply bg-InnovaBlue/90 shadow-md
     }
+
+    .headerScrollNovaprofit{
+        @apply bg-InnovaGreyNovaprofit/90 shadow-md
+    }
+
+    .headerScrollAnnona{
+        @apply bg-AnnonaGreenBG/90 shadow-md
+    }
+
 
 
     .cardTitle{

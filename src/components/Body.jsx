@@ -114,7 +114,7 @@ export default function Body(){
                         <a className="innovaButton w-auto">{info.home.novaprofit.button}</a>
                         <Link to={info.home.novaprofit.url} className="innovaButton w-auto">
                             {info.home.novaprofit.button}
-                        <Link/>
+                        </Link>
                     </div>
 
                 </section>

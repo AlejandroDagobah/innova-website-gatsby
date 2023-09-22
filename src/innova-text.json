@@ -117,7 +117,7 @@
                     "title": "",
                     "description": "Quieres iniciar en el mundo de inversiones inmobiliarias y generar una rentabilidad inicial.",
                     "investment": "Inversión desde un monto de <br/> <b>$3.000 hasta $20.000 </b>",
-                    "img": "/img/profitesencial.png",
+                    "img": "/img/profitesencial-1.png",
                     "url": "#",
                     "color": "linear-gradient(0deg, rgba(3, 119, 110, 1), rgba(3, 119, 110, 1))"
                     
@@ -126,7 +126,7 @@
                     "title": "",
                     "description": "Sabes que el mercado inmobiliario puede generarte excelentes réditos económicos y estás construyendo  un patrimonio para tu futuro.",
                     "investment": "Inversión desde un monto de <br/> <b>$20.000 hasta $100.000</b>",
-                    "img": "/img/profitclassic.png",
+                    "img": "/img/profitclassic-1.png",
                     "url": "#",
                     "color": "linear-gradient(0deg, rgba(62, 156, 53, 1), rgba(62, 156, 53, 1))"
                     
@@ -137,7 +137,7 @@
                     "investment": "Inversión desde un monto de <br/> <b>$100.000 en adelante</b>",
                     "img": "/img/profitdeluxe.png",
                     "url": "#",
-                    "color": "linear-gradient(145deg, rgba(244, 225, 137, 1), rgba(200, 165, 81, 1))"
+                    "color": "linear-gradient(145deg, #c09a47, #fced94)"
 
                 }
             ]

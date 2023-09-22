@@ -69,7 +69,8 @@
             "title": "NOVAPROFIT",
             "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
             "button": "Descubre más",
-            "img": "/img/novaprofit-investment.png"
+            "img": "/img/novaprofit-investment.png",
+            "url": "/novaprofit"
         },
         "nuestroCompromiso":{
             "title": "Nuestro Compromiso",

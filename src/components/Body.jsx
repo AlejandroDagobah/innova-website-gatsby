@@ -112,9 +112,9 @@ export default function Body(){
                         <h2 className="text-white font-bold mb-3 text-clampTitle">{info.home.novaprofit.title}</h2>
                         <p className="text-white mb-5 lg:text-lg">{info.home.novaprofit.description}</p>
                         <a className="innovaButton w-auto">{info.home.novaprofit.button}</a>
-                        <Link to={info.home.novaprofit.url} className="innovaButton w-auto">
+                        {/* <Link to={info.home.novaprofit.url} className="innovaButton w-auto">
                             {info.home.novaprofit.button}
-                        </Link>
+                        </Link> */}
                     </div>
 
                 </section>

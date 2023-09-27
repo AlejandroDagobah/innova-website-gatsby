@@ -283,6 +283,102 @@
         }
     },
 
+    "altamira":{
+        "cover":{
+            "logo": "/img/altamira-logo.png",
+            "title": "CONUJUNTO RESIDENCIAL ANNONA",
+            "subtitle": "Ecoluxury",
+            "description": "Es la fusión perfecta de lujo y sostenibilidad, que te permite disfrutar de un gran estilo de vida en Guayllabamba, un lugar de clima privilegiado, seguro  y turístico.",
+            "buttons":[
+                {"title": "Ubicación", "url":"/annona#ubicacion"},
+                {"title": "Planos", "url":"/annona#planos"},
+                {"title": "Amenities", "url":"/annona#amenities"},
+                {"title": "Interiores", "url":"/annona#interiores"}
+            ]
+        },
+        "ecoluxury":{
+            "title": "<span style='color:#FCE269'>VIVE</span><br> ECOLUXURY",
+            "description": "Es una nueva forma de realizar inversiones inteligentes colaborativas, mediante crowdfunding inmobiliario enfocado a proyectos de alta demanda urbanística.",
+            "button": "Descubre más",
+            "img": "/img/annona-ecoluxury-movil.png"
+        },
+        "location":{
+            "title": "Ubicación",
+            "sections":[
+                {
+                    "title": "Guayllabamba",
+                    "description": "Calle 12 de Occtubre"
+                },
+                {
+                    "title": "Clima",
+                    "description": "Subtropical"
+                },
+                {
+                    "title": "Puntos de interés",
+                    "description": "<li>Entidades financieras</li><li>Zonas y atractivos turísticos</li><li>Centros médicos</li><li>Instituciones educativas</li>"
+                }
+            ]
+        },
+        "amenities":{
+            "title": "Amenities",
+            "description": "Nuestras exclusivas casas ecológicas, están diseñadas para ser sismorresistentes, termoacústicas y en total armonía con la naturaleza. Encontrarás en ellas la combinación ideal entre confort, lujo, privacidad y respeto por el medio ambiente.",
+            "icons":[
+                {
+                    "img": "/img/icons-annona/piscina.png",
+                    "description": "Piscina"
+                },
+                {
+                    "img": "/img/icons-annona/area-infantil.png",
+                    "description": "Área Infantil"
+                },
+                {
+                    "img": "/img/icons-annona/area-bbq.png",
+                    "description": "Área BBQ"
+                },
+                {
+                    "img": "/img/icons-annona/casa-comunal.png",
+                    "description": "Casa comunal"
+                },
+                {
+                    "img": "/img/icons-annona/pet-park.png",
+                    "description": "Pet Park"
+                },
+                {
+                    "img": "/img/icons-annona/cancha-de-padel.png",
+                    "description": "Cancha de Pádel"
+                },
+                {
+                    "img": "/img/icons-annona/gym.png",
+                    "description": "Gimnasio al aire libre y cubierto"
+                },
+                {
+                    "img": "/img/icons-annona/herramientas.png",
+                    "description": "Biblioteca de herramientas"
+                },
+                {
+                    "img": "/img/icons-annona/parking.png",
+                    "description": "Parqueadero para visitas"
+                },
+                {
+                    "img": "/img/icons-annona/seguridad.png",
+                    "description": "Seguridad y Guardianía"
+                }
+            ]
+        },
+        "planos":{
+            "title": "Planos de la Casa",
+            "description": "Disfruta de un hogar sostenible y seguro, donde cada detalle ha sido cuidadosamente pensado para garantizar tu bienestar y el de tu familia."
+        },
+        "ecoamigable":{
+            "title": "Un espacio Ecoamigable",
+            "description": "Vive en armonía con la naturaleza sin renunciar al lujo y confort que te mereces"
+        },
+        "formulario":{
+            "title": "¿Quieres iniciar tu vida Ecoluxury en Guayllabamba?",
+            "description": "Escríbenos y un ejecutivo se pondrá en contacto lo más pronto posible."
+        }
+    },
+    
     "notFound":{
         "title": "Esta página esta en Construcción.",
         "subtitle": "404 NOT FOUND",

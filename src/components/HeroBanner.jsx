@@ -50,7 +50,7 @@ export default function HeroBanner(props) {
 
         </Carousel>
 
-        {props.annona ? <AnnonaContent content={props.content}/>: <HeroContent content={props.content} color={highlightColor} buttonColor={buttonColor}/>}
+        {props.annona ? <AnnonaContent content={props.content} mainColor={props.mainColor}/>: <HeroContent content={props.content} color={highlightColor} buttonColor={buttonColor}/>}
         
     </div>
   )
@@ -70,12 +70,15 @@ function HeroContent(props){
 }
 
 function AnnonaContent(props){
-    console.log(props);
+
+    const mainColor = props.mainColor != undefined ? props.mainColor : "AnnonaYellow"; 
+
+    console.log("HOLAAAA:", props.mainColor);
 
     const buttons = props.content.buttons.map((item, index)=>{
         
         return (
-            <Link key={index} className='max-w-[200px] py-8 px-4 annonaButton bg-AnnonaYellow/60 hover:bg-AnnonaYellow cursor-pointer ease-in-out delay-100 duration-300' to={item.url}>
+            <Link key={index} className={`max-w-[200px] py-8 px-4 annonaButton ${mainColor.normal} ${mainColor.hover} cursor-pointer ease-in-out delay-100 duration-300 text-white`} to={item.url}>
                 +
                 <br />
                 {item.title}

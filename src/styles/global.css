@@ -53,7 +53,13 @@ html{scroll-behavior:smooth}
         background: linear-gradient(180deg, rgba(3, 94, 54, 0.50) 0%, rgba(156, 182, 78, 0.50) 30.52%, rgba(156, 182, 78, 0.50) 64.73%, rgba(3, 94, 54, 0.50) 100%), #035E36;
 
     }
-    
+        
+    .altamiraGradient{
+        
+        background: linear-gradient(180deg, #125B4E 27.08%, #125B4E 51.56%, #125B4E 78.12%);
+    }
+
+
     .novaprofitGradient{
         
         background: linear-gradient(180deg, #464241 27.08%, #464241 51.56%, #625A58 78.12%);

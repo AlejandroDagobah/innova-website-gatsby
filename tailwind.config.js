@@ -35,7 +35,8 @@ module.exports = withMT({
         AnnonaGreenBG2: '#',
         AnnonaYellow: '#FCE269',
         AnnonaYellowHover: '#FFDD41',
-
+        
+        AltamiraTurquoise: '#26927E',
 
       },
 

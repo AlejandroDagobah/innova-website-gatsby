@@ -27,6 +27,7 @@ export default function Home() {
 export function Head() {
     return(
       <SEO/>
+      
     )
 
 }

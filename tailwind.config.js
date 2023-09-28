@@ -59,10 +59,10 @@ module.exports = withMT({
         'hexagons': "url('/img/hexagons-red.png')",
         'hexagonsDesktop': "url('/img/hexagons-desktop.png')",
 
-        'desktopWallpaper1': "url('/img/bg-wallpaper-annona-1.png')",
-        'desktopWallpaper2': "url('/img/bg-wallpaper-annona-2.png')",
-        'desktopWallpaper3': "url('/img/bg-wallpaper-annona-3.png')",
-        'desktopWallpaper4': "url('/img/bg-wallpaper-annona-4.png')",
+        'desktopWallpaper1': "url('/img/home/bg-wallpaper-annona-1.png')",
+        'desktopWallpaper2': "url('/img/home/bg-wallpaper-annona-2.png')",
+        'desktopWallpaper3': "url('/img/home/bg-wallpaper-annona-3.png')",
+        'desktopWallpaper4': "url('/img/home/bg-wallpaper-annona-4.png')",
         
         'desktopWallpaperNovaprofit': "url('/img/bg-wallpaper-novaprofit.png')",
 

@@ -14,21 +14,21 @@
                 {
                     "title": "NOVA <br> BUILDING",
                     "description": "Construimos con nuestro propio sistema econstructivo optimizando costos y ofreciendo acabados de primera.",
-                    "img": "./img/nova-building.png",
+                    "img": "./img/home/nova-building.jpg",
                     "url": "/novabuilding"
 
                 },
                 {
                     "title": "NOVA <br> PROFIT",
                     "description": "Crowdfunding inmobiliario que impulsa la inversión colaborativa para la obtención de réditos superiores al mercado financiero.",
-                    "img": "./img/nova-profit.png",
+                    "img": "./img/home/nova-profit.jpg",
                     "url": "/novaprofit"
 
                 },
                 {
                     "title": "NOVA <br> BLOCK",
                     "description": "Fabricamos ecoladrillos con propiedades resistentes y termoacústicas para una construcción amigable con el medio ambiente.",
-                    "img": "./img/nova-block.png",
+                    "img": "./img/home/nova-block.jpg",
                     "url": "/novablock"
 
                 }
@@ -39,26 +39,26 @@
             "description":" Contamos con proyectos  habitacionales  ubicados en sectores estratégicos y realizamos  la planificación y construcción de casas a tu medida en tu propio terreno.",
             "projectCards":[
                 {
-                    "img": "/img/projects-annona.png",
+                    "img": "/img/home/projects-annona.jpg",
                     "title":"ANNONA",
                     "location":"Guayllabamba",
                     "url":"/annona"
                 },
                 {
-                    "img": "/img/projects-altamira.png",
+                    "img": "/img/home/projects-altamira.jpg",
                     "title":"ALTAMIRA",
                     "location":"El Bosque",
                     "url":"/altamira"
                 },
                 {
-                    "img": "/img/projects-novacasa.png",
+                    "img": "/img/home/projects-novacasa.jpg",
                     "title":"NOVACASA",
                     "location":"Tu terreno",
                     "url":"/novacasa"
                 }
                 ,
                 {
-                    "img": "/img/projects-futuros-proyectos.png",
+                    "img": "/img/home/projects-futuros-proyectos.jpg",
                     "title":"FUTUROS <br>PROYECTOS",
                     "location":"Próximas Ubicaciones",
                     "url":"/futuros-proyectos"

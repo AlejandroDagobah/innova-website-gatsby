@@ -8,18 +8,18 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+    siteMetadata: {
+    title: `Innova Egroup | Inversion en bienes raices Ecuador`,
+    description: `Desarrollamos proyectos de inversión en bienes raices a través de un sistema de construcción eco amigable brindando tranquilidad financiera a nuestros clientes.`,
+    image: `img/seo/share-img.jpg`,
+    siteUrl: `https://innova-egroup.com.ec/`,
+  },
+
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-background-image-es5',
-      options: {
-        // add your own characters to escape, replacing the default ':/'
-        specialChars: '/:',
-      },
-    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -51,12 +51,8 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-sitemap'
   ],
   
-  siteMetadata: {
-    title: `Innova Egroup | Inversion en bienes raices Ecuador`,
-    description: `Desarrollamos proyectos de inversión en bienes raices a través de un sistema de construcción eco amigable brindando tranquilidad financiera a nuestros clientes.`,
-    image: `img/seo/share-img.jpg`,
-    siteUrl: `https://innova-egroup.com.ec/`,
-  }
+
 }

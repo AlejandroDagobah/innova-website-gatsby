@@ -5,6 +5,7 @@ import HeaderResponsive from '../components/HeaderResponsive'
 import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import SEO from '../components/Seo'
+import MetaPixel from '../components/meta/metaPixel';
 
 import { Carousel } from "@material-tailwind/react";
 import info from "../innova-text.json"
@@ -262,7 +263,11 @@ export default function Altamira() {
 
 export function Head() {
     return(
-      <SEO title="Altamira | Condominio en El Bosque, Quito, Ecuador" description="Altamira."/>
+        <>
+            <SEO title="Altamira | Condominio en El Bosque, Quito, Ecuador" description="Altamira."/>
+            <MetaPixel/>
+
+        </>
     )
 
 }

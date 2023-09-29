@@ -5,6 +5,7 @@ import HeaderResponsive from '../components/HeaderResponsive';
 import HeroBanner from "../components/HeroBanner";
 import SEO from '../components/Seo';
 import info from "../innova-text.json"
+import MetaPixel from '../components/meta/metaPixel';
 
 export default function NotFound() {
 
@@ -41,7 +42,11 @@ export default function NotFound() {
 
 export function Head() {
     return(
-      <SEO/>
+        <>
+            <SEO/>
+            <MetaPixel/>
+
+        </>
     )
 
 }

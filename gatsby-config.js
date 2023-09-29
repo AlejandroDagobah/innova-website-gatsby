@@ -51,7 +51,13 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-sitemap'
+    'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "pixel id here",
+      },
+    }
   ],
   
 

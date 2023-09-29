@@ -5,6 +5,7 @@ import HeaderResponsive from '../components/HeaderResponsive'
 import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import SEO from '../components/Seo'
+import MetaPixel from '../components/meta/metaPixel';
 
 import { Carousel } from "@material-tailwind/react";
 import info from "../innova-text.json"
@@ -260,7 +261,10 @@ export default function Annona() {
 
 export function Head() {
     return(
-      <SEO title="Annona | Condominio en Guayllabamba, Afueras de Quito, Ecuador" description="Annona es un condominio que fusiona a la perfección lujo y sostenibilidad, disfruta de un gran estilo de vida en tu casa de campo en Guayllabamba, un lugar de clima privilegiado, seguro y turístico."/>
+        <>
+            <SEO title="Annona | Condominio en Guayllabamba, Afueras de Quito, Ecuador" description="Annona es un condominio que fusiona a la perfección lujo y sostenibilidad, disfruta de un gran estilo de vida en tu casa de campo en Guayllabamba, un lugar de clima privilegiado, seguro y turístico."/>
+            <MetaPixel/>
+        </>
     )
 
 }

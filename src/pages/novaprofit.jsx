@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Cards from '../components/CardsNova';
 import NovaprofitProject from '../components/NovaprofitProject';
 import SEO from '../components/Seo';
+import MetaPixel from '../components/meta/metaPixel';
 import info from '../innova-text.json'
 import { StaticImage } from 'gatsby-plugin-image';
 
@@ -147,7 +148,10 @@ export default function Novaprofit() {
   
   export function Head() {
       return(
-        <SEO title="Novaprofit | Inversiones de bienes raíces en Ecuador" description="Invierte en bienes raíces en nuestros proyectos ecológicos y descubre una forma inteligente de crecimiento financiero, donde la sostenibilidad se fusiona con la rentabilidad."/>
-      )
+        <>
+            <SEO title="Novaprofit | Inversiones de bienes raíces en Ecuador" description="Invierte en bienes raíces en nuestros proyectos ecológicos y descubre una forma inteligente de crecimiento financiero, donde la sostenibilidad se fusiona con la rentabilidad."/>
+            <MetaPixel/>
+        </>
+    )
   
   }

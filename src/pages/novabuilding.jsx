@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import Projects from "../components/Projects";
 import SEO from '../components/Seo'
+import MetaPixel from '../components/meta/metaPixel';
 
 import info from "../innova-text.json"
 
@@ -105,7 +106,10 @@ export default function NovaBuilding() {
 
 export function Head() {
     return(
-      <SEO title="Novabuilding | Proyectos de bienes raíces en Ecuador" description="Construimos proyectos inmobiliarios con nuestro propio sistema ecologíco de diseño y acabados de primera."/>
+        <>
+            <SEO title="Novabuilding | Proyectos de bienes raíces en Ecuador" description="Construimos proyectos inmobiliarios con nuestro propio sistema ecologíco de diseño y acabados de primera."/>
+            <MetaPixel/>
+        </>
     )
 
 }

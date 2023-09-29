@@ -4,6 +4,7 @@ import Body from "../components/Body"
 import Footer from "../components/Footer"
 import HeaderResponsive from "../components/HeaderResponsive"
 import SEO from "../components/Seo"
+import MetaPixel from '../components/meta/metaPixel';
 
 export default function Home() {
 
@@ -26,8 +27,10 @@ export default function Home() {
 
 export function Head() {
     return(
-      <SEO/>
-      
+      <>
+        <SEO/>
+        <MetaPixel/>
+      </>
     )
 
 }

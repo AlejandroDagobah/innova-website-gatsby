@@ -21,8 +21,7 @@ const MetaPixel = () => {
                 }
             </script>
 
-            <noscript id="facebook-pixel-image">
-                <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=872008711165403&ev=PageView&noscript=1"/>
+            <noscript id="facebook-pixel-image" dangerouslySetInnerHTML={{__html: '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=872008711165403&ev=PageView&noscript=1/>'}}>
             </noscript>
             
         {/* <!-- End Meta Pixel Code --> */}

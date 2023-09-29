@@ -67,7 +67,7 @@ export default function Altamira() {
                 'description': info.altamira.cover.description,
                 'buttons': info.altamira.cover.buttons,
             }}
-            mainColor={{normal:'bg-AltamiraTurquoise/60', hover:'hover:bg-AltamiraTurquoise'}}
+            mainColor={{normal:'bg-AltamiraTurquoise/60', hover:'hover:bg-AltamiraTurquoise', btnText:'text-white'}}
 
         />
 

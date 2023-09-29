@@ -73,12 +73,10 @@ function AnnonaContent(props){
 
     const mainColor = props.mainColor != undefined ? props.mainColor : "AnnonaYellow"; 
 
-    console.log("HOLAAAA:", props.mainColor);
-
     const buttons = props.content.buttons.map((item, index)=>{
         
         return (
-            <Link key={index} className={`max-w-[200px] py-8 px-4 annonaButton ${mainColor.normal} ${mainColor.hover} cursor-pointer ease-in-out delay-100 duration-300 text-white`} to={item.url}>
+            <Link key={index} className={`max-w-[200px] py-8 px-4 annonaButton ${mainColor.normal} ${mainColor.hover} cursor-pointer ease-in-out delay-100 duration-300 ${mainColor.btnText}`} to={item.url}>
                 +
                 <br />
                 {item.title}

@@ -67,6 +67,8 @@ export default function Annona() {
                 'description': info.annona.cover.description,
                 'buttons': info.annona.cover.buttons
             }}
+            mainColor={{normal:'bg-AnnonaYellow/60', hover:'hover:bg-AnnonaYellowHover', btnText:'text-AnnonaGreenBG'}}
+
         />
 
         

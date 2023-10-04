@@ -21,6 +21,16 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options:{
+        host:'https://innova-egroup.com.ec/',
+        sitemap:'https://innova-egroup.com.ec/sitemap-0.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+
+      }
+
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.

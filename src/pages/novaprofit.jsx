@@ -127,16 +127,23 @@ export default function Novaprofit() {
             {<p className="text-white mt-4 mr-4 mb-4">{info.novaprofit.pool.description}</p>}
         </div>
 
-        <div className='px-6 py-8 pb-32 flex flex-col md:flex-row justify-center items-center m-auto max-w-[1200px]'>
+        <div className='px-6 py-8 pb-24 flex flex-col md:flex-row justify-center items-center m-auto max-w-[1200px]'>
             {novaProfitProjects()}
         </div>
+
+        <div className='px-6 pb-24 max-w-[700px] md:text-center self-center m-auto'>
+            <h3 className='font-bold text-white text-clampTitle'>{info.novaprofit.form.title}</h3>
+            <p className='text-white mt-4 mr-4 mb-4'>{info.novaprofit.form.description}</p>
+            <iframe src="https://apps.clientify.net/formbuilderembed/simpleembed/#/forms/embedform/157182/26397" height="300" width='600' className='overflow-hidden -p-8 w-full'></iframe>
+
+        </div>
+    
 
         <div className="flex flex-col justify-center items-center bg-cover bg-center h-[400px] bg-natureIntelligence">
             <h4 className="font-bold text-white text-center text-clampTitle break-words px-4" dangerouslySetInnerHTML={{__html: info.novaprofit.callToAction.title}}></h4>
             <a className="innovaButton bg-InnovaGreenNovaprofit hover:bg-InnovaGreenNovaprofitDarker transition-all duration-300 ease-in hover:cursor-pointer">{info.novaprofit.callToAction.button}</a>
 
         </div>
-    
 
         <Footer/>
       </Layout>

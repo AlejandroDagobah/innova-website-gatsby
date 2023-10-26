@@ -178,6 +178,11 @@
             ]
             
         },
+        "form":{
+            "title": "Invierte en tu futuro financiero",
+            "description": "Escríbenos y un ejecutivo se pondrá en contacto lo más pronto posible."
+
+        },
         "callToAction":{
             "title": "¿Listo para iniciar tu<span style='color:#459D28'> inversión</span>?",
             "button": "Contáctanos",
